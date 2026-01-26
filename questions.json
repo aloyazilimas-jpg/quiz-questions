@@ -1,0 +1,22 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "Türkiye'nin başkenti neresidir?",
+      "options": ["İstanbul", "Ankara", "İzmir", "Bursa"],
+      "answer": 1
+    },
+    {
+      "id": 2,
+      "question": "Dünyanın en büyük gezegeni hangisidir?",
+      "options": ["Mars", "Venüs", "Jüpiter", "Satürn"],
+      "answer": 2
+    },
+    {
+      "id": 3,
+      "question": "FIFA Dünya Kupası'nı en çok kazanan ülke hangisidir?",
+      "options": ["Almanya", "Brezilya", "Arjantin", "Fransa"],
+      "answer": 1
+    }
+  ]
+}
