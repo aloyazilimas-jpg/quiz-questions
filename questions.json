@@ -9,14 +9,2544 @@
     {
       "id": 2,
       "question": "Dünyanın en büyük gezegeni hangisidir?",
-      "options": ["Mars", "Venüs", "Jüpiter", "Satürn"],
+      "options": ["Mars", "Venüs", "Jüpiter", "Merkür"],
       "answer": 2
-    },
-    {
-      "id": 3,
-      "question": "FIFA Dünya Kupası'nı en çok kazanan ülke hangisidir?",
-      "options": ["Almanya", "Brezilya", "Arjantin", "Fransa"],
-      "answer": 1
     }
   ]
-}
+}[
+  {
+    "id": 1,
+    "soru": "Türkiye'nin başkenti neresidir?",
+    "secenekler": {
+      "A": "İstanbul",
+      "B": "Ankara",
+      "C": "İzmir",
+      "D": "Bursa"
+    },
+    "dogru": "B"
+  },
+  {
+    "id": 2,
+    "soru": "Dünyanın en büyük okyanusu hangisidir?",
+    "secenekler": {
+      "A": "Atlas",
+      "B": "Hint",
+      "C": "Pasifik",
+      "D": "Arktik"
+    },
+    "dogru": "C"
+  },
+  {
+    "id": 3,
+    "soru": "Atatürk hangi yılda doğmuştur?",
+    "secenekler": {
+      "A": "1878",
+      "B": "1880",
+      "C": "1881",
+      "D": "1883"
+    },
+    "dogru": "C"
+  },
+  {
+    "id": 4,
+    "soru": "İstiklal Marşı'nın yazarı kimdir?",
+    "secenekler": {
+      "A": "Yahya Kemal",
+      "B": "Mehmet Akif Ersoy",
+      "C": "Tevfik Fikret",
+      "D": "Necip Fazıl"
+    },
+    "dogru": "B"
+  },
+  {
+    "id": 5,
+    "soru": "Dünyanın en uzun nehri hangisidir?",
+    "secenekler": {
+      "A": "Amazon",
+      "B": "Nil",
+      "C": "Fırat",
+      "D": "Yangtze"
+    },
+    "dogru": "B"
+  },
+  {
+    "id": 6,
+    "soru": "Türkiye kaç coğrafi bölgeden oluşur?",
+    "secenekler": {
+      "A": "5",
+      "B": "6",
+      "C": "7",
+      "D": "8"
+    },
+    "dogru": "C"
+  },
+  {
+    "id": 7,
+    "soru": "Ay'a ilk ayak basan insan kimdir?",
+    "secenekler": {
+      "A": "Yuri Gagarin",
+      "B": "Neil Armstrong",
+      "C": "Buzz Aldrin",
+      "D": "Michael Collins"
+    },
+    "dogru": "B"
+  },
+  {
+    "id": 8,
+    "soru": "Osmanlı Devleti'nin kurucusu kimdir?",
+    "secenekler": {
+      "A": "Osman Gazi",
+      "B": "Orhan Gazi",
+      "C": "Yıldırım Bayezid",
+      "D": "Ertuğrul Gazi"
+    },
+    "dogru": "A"
+  },
+  {
+    "id": 9,
+    "soru": "Dünyanın en yüksek dağı hangisidir?",
+    "secenekler": {
+      "A": "K2",
+      "B": "Elbruz",
+      "C": "Everest",
+      "D": "Kilimanjaro"
+    },
+    "dogru": "C"
+  },
+  {
+    "id": 10,
+    "soru": "Türkiye'nin en kalabalık şehri hangisidir?",
+    "secenekler": {
+      "A": "Ankara",
+      "B": "İzmir",
+      "C": "Bursa",
+      "D": "İstanbul"
+    },
+    "dogru": "D"
+  },
+
+  {
+    "id": 11,
+    "soru": "Dünya Sağlık Örgütü'nün kısaltması nedir?",
+    "secenekler": {
+      "A": "UNICEF",
+      "B": "WHO",
+      "C": "NATO",
+      "D": "UNESCO"
+    },
+    "dogru": "B"
+  },
+  {
+    "id": 12,
+    "soru": "Türkiye'nin para birimi nedir?",
+    "secenekler": {
+      "A": "Euro",
+      "B": "Dolar",
+      "C": "Türk Lirası",
+      "D": "Sterlin"
+    },
+    "dogru": "C"
+  },
+  {
+    "id": 13,
+    "soru": "Dünyanın en kalabalık ülkesi hangisidir?",
+    "secenekler": {
+      "A": "Hindistan",
+      "B": "ABD",
+      "C": "Çin",
+      "D": "Rusya"
+    },
+    "dogru": "A"
+  },
+  {
+    "id": 14,
+    "soru": "DNA'nın açılımı nedir?",
+    "secenekler": {
+      "A": "Deoksiribo Nükleik Asit",
+      "B": "Dinamik Nükleer Alan",
+      "C": "Doğal Nöral Ağ",
+      "D": "Data Network Area"
+    },
+    "dogru": "A"
+  },
+  {
+    "id": 15,
+    "soru": "Cumhuriyet hangi yıl ilan edilmiştir?",
+    "secenekler": {
+      "A": "1919",
+      "B": "1920",
+      "C": "1922",
+      "D": "1923"
+    },
+    "dogru": "D"
+  },
+
+  {
+    "id": 16,
+    "soru": "Türkiye'nin en uzun nehri hangisidir?",
+    "secenekler": {
+      "A": "Fırat",
+      "B": "Dicle",
+      "C": "Kızılırmak",
+      "D": "Sakarya"
+    },
+    "dogru": "C"
+  },
+  {
+    "id": 17,
+    "soru": "Avrupa Birliği'nin merkezi neresidir?",
+    "secenekler": {
+      "A": "Paris",
+      "B": "Berlin",
+      "C": "Brüksel",
+      "D": "Roma"
+    },
+    "dogru": "C"
+  },
+  {
+    "id": 18,
+    "soru": "İnsan vücudundaki en büyük organ hangisidir?",
+    "secenekler": {
+      "A": "Karaciğer",
+      "B": "Beyin",
+      "C": "Akciğer",
+      "D": "Deri"
+    },
+    "dogru": "D"
+  },
+  {
+    "id": 19,
+    "soru": "Türkiye'nin en büyük gölü hangisidir?",
+    "secenekler": {
+      "A": "Van Gölü",
+      "B": "Tuz Gölü",
+      "C": "Beyşehir",
+      "D": "Eğirdir"
+    },
+    "dogru": "A"
+  },
+  {
+    "id": 20,
+    "soru": "Güneş Sistemi'ndeki en büyük gezegen hangisidir?",
+    "secenekler": {
+      "A": "Mars",
+      "B": "Satürn",
+      "C": "Jüpiter",
+      "D": "Neptün"
+    },
+    "dogru": "C"
+  },
+
+  {
+    "id": 21,
+    "soru": "Türk bayrağındaki yıldız kaç köşelidir?",
+    "secenekler": {
+      "A": "4",
+      "B": "5",
+      "C": "6",
+      "D": "8"
+    },
+    "dogru": "B"
+  },
+  {
+    "id": 22,
+    "soru": "İlk yazıyı hangi uygarlık bulmuştur?",
+    "secenekler": {
+      "A": "Mısırlılar",
+      "B": "Hititler",
+      "C": "Sümerler",
+      "D": "Frigler"
+    },
+    "dogru": "C"
+  },
+  {
+    "id": 23,
+    "soru": "Türkiye NATO'ya hangi yıl üye olmuştur?",
+    "secenekler": {
+      "A": "1949",
+      "B": "1950",
+      "C": "1952",
+      "D": "1955"
+    },
+    "dogru": "C"
+  },
+  {
+    "id": 24,
+    "soru": "En hızlı kara hayvanı hangisidir?",
+    "secenekler": {
+      "A": "Aslan",
+      "B": "Çita",
+      "C": "Kaplan",
+      "D": "Antilop"
+    },
+    "dogru": "B"
+  },
+  {
+    "id": 25,
+    "soru": "İstanbul hangi iki kıta üzerinde yer alır?",
+    "secenekler": {
+      "A": "Avrupa-Asya",
+      "B": "Asya-Afrika",
+      "C": "Avrupa-Afrika",
+      "D": "Asya-Amerika"
+    },
+    "dogru": "A"
+  },
+
+  {
+    "id": 26,
+    "soru": "Bir yılda kaç ay vardır?",
+    "secenekler": {
+      "A": "10",
+      "B": "11",
+      "C": "12",
+      "D": "13"
+    },
+    "dogru": "C"
+  },
+  {
+    "id": 27,
+    "soru": "Dünyanın uydusu hangisidir?",
+    "secenekler": {
+      "A": "Mars",
+      "B": "Ay",
+      "C": "Güneş",
+      "D": "Venüs"
+    },
+    "dogru": "B"
+  },
+  {
+    "id": 28,
+    "soru": "Türkiye'nin en uzun kıyı şeridi hangi denizdedir?",
+    "secenekler": {
+      "A": "Karadeniz",
+      "B": "Ege",
+      "C": "Akdeniz",
+      "D": "Marmara"
+    },
+    "dogru": "A"
+  },
+  {
+    "id": 29,
+    "soru": "Elektriği ileten metal hangisidir?",
+    "secenekler": {
+      "A": "Plastik",
+      "B": "Bakır",
+      "C": "Cam",
+      "D": "Tahta"
+    },
+    "dogru": "B"
+  },
+  {
+    "id": 30,
+    "soru": "Dünyanın en büyük çölü hangisidir?",
+    "secenekler": {
+      "A": "Sahra",
+      "B": "Gobi",
+      "C": "Arabistan",
+      "D": "Antarktika"
+    },
+    "dogru": "D"
+  }
+][
+  {
+    "id": 51,
+    "seviye": "orta",
+    "soru": "Türkiye'nin yüzölçümü en büyük ili hangisidir?",
+    "secenekler": {
+      "A": "Konya",
+      "B": "Ankara",
+      "C": "Sivas",
+      "D": "Erzurum"
+    },
+    "dogru": "A"
+  },
+  {
+    "id": 52,
+    "seviye": "orta",
+    "soru": "Dünyanın en kalabalık şehri hangisidir?",
+    "secenekler": {
+      "A": "Tokyo",
+      "B": "Delhi",
+      "C": "Şanghay",
+      "D": "New York"
+    },
+    "dogru": "A"
+  },
+  {
+    "id": 53,
+    "seviye": "orta",
+    "soru": "İnsan vücudunda oksijen taşıyan kan hücresi hangisidir?",
+    "secenekler": {
+      "A": "Alyuvar",
+      "B": "Akyuvar",
+      "C": "Trombosit",
+      "D": "Plazma"
+    },
+    "dogru": "A"
+  },
+  {
+    "id": 54,
+    "seviye": "orta",
+    "soru": "Türkiye'nin en büyük adası hangisidir?",
+    "secenekler": {
+      "A": "Gökçeada",
+      "B": "Bozcaada",
+      "C": "Marmara",
+      "D": "Avşa"
+    },
+    "dogru": "A"
+  },
+  {
+    "id": 55,
+    "seviye": "orta",
+    "soru": "Elektriğin birimi nedir?",
+    "secenekler": {
+      "A": "Watt",
+      "B": "Volt",
+      "C": "Amper",
+      "D": "Ohm"
+    },
+    "dogru": "B"
+  },
+
+  {
+    "id": 56,
+    "seviye": "orta",
+    "soru": "Osmanlı Devleti hangi savaşla yıkılış sürecine girmiştir?",
+    "secenekler": {
+      "A": "I. Dünya Savaşı",
+      "B": "Balkan Savaşları",
+      "C": "Çanakkale Savaşı",
+      "D": "93 Harbi"
+    },
+    "dogru": "B"
+  },
+  {
+    "id": 57,
+    "seviye": "orta",
+    "soru": "Türkiye'nin en uzun kıyı şeridi hangi denizdedir?",
+    "secenekler": {
+      "A": "Akdeniz",
+      "B": "Ege",
+      "C": "Karadeniz",
+      "D": "Marmara"
+    },
+    "dogru": "C"
+  },
+  {
+    "id": 58,
+    "seviye": "orta",
+    "soru": "Hangisi bir yenilenebilir enerji kaynağıdır?",
+    "secenekler": {
+      "A": "Petrol",
+      "B": "Doğalgaz",
+      "C": "Güneş",
+      "D": "Kömür"
+    },
+    "dogru": "C"
+  },
+  {
+    "id": 59,
+    "seviye": "orta",
+    "soru": "Dünyanın en derin noktası neresidir?",
+    "secenekler": {
+      "A": "Bermuda Çukuru",
+      "B": "Mariana Çukuru",
+      "C": "Kızıldeniz",
+      "D": "Hazar Denizi"
+    },
+    "dogru": "B"
+  },
+  {
+    "id": 60,
+    "seviye": "orta",
+    "soru": "Türkiye Cumhuriyeti'nin ilk cumhurbaşkanı kimdir?",
+    "secenekler": {
+      "A": "İsmet İnönü",
+      "B": "Celal Bayar",
+      "C": "Mustafa Kemal Atatürk",
+      "D": "Fevzi Çakmak"
+    },
+    "dogru": "C"
+  },
+
+  {
+    "id": 61,
+    "seviye": "zor",
+    "soru": "Kapitülasyonlar hangi antlaşma ile tamamen kaldırılmıştır?",
+    "secenekler": {
+      "A": "Sevr",
+      "B": "Mudanya",
+      "C": "Lozan",
+      "D": "Ankara"
+    },
+    "dogru": "C"
+  },
+  {
+    "id": 62,
+    "seviye": "zor",
+    "soru": "Dünyanın en büyük ikinci kıtası hangisidir?",
+    "secenekler": {
+      "A": "Afrika",
+      "B": "Asya",
+      "C": "Avrupa",
+      "D": "Amerika"
+    },
+    "dogru": "A"
+  },
+  {
+    "id": 63,
+    "seviye": "zor",
+    "soru": "Osmanlı Devleti'nde ilk vezir kimdir?",
+    "secenekler": {
+      "A": "Alaeddin Paşa",
+      "B": "Çandarlı Halil Paşa",
+      "C": "Köprülü Mehmet Paşa",
+      "D": "Pargalı İbrahim Paşa"
+    },
+    "dogru": "A"
+  },
+  {
+    "id": 64,
+    "seviye": "zor",
+    "soru": "Fransız İhtilali hangi yıl başlamıştır?",
+    "secenekler": {
+      "A": "1776",
+      "B": "1789",
+      "C": "1812",
+      "D": "1848"
+    },
+    "dogru": "B"
+  },
+  {
+    "id": 65,
+    "seviye": "zor",
+    "soru": "Türkiye'de çok partili hayata geçiş hangi yıl olmuştur?",
+    "secenekler": {
+      "A": "1938",
+      "B": "1945",
+      "C": "1950",
+      "D": "1960"
+    },
+    "dogru": "B"
+  },
+
+  {
+    "id": 66,
+    "seviye": "zor",
+    "soru": "Dünyanın en uzun demiryolu hattı hangisidir?",
+    "secenekler": {
+      "A": "Orient Express",
+      "B": "Trans Sibirya",
+      "C": "İpek Yolu",
+      "D": "Panama Hattı"
+    },
+    "dogru": "B"
+  },
+  {
+    "id": 67,
+    "seviye": "zor",
+    "soru": "Ayasofya ilk olarak hangi amaçla yapılmıştır?",
+    "secenekler": {
+      "A": "Cami",
+      "B": "Saray",
+      "C": "Kilise",
+      "D": "Müze"
+    },
+    "dogru": "C"
+  },
+  {
+    "id": 68,
+    "seviye": "zor",
+    "soru": "Hangisi Nobel Ödülü kategorilerinden biri değildir?",
+    "secenekler": {
+      "A": "Fizik",
+      "B": "Kimya",
+      "C": "Matematik",
+      "D": "Barış"
+    },
+    "dogru": "C"
+  },
+  {
+    "id": 69,
+    "seviye": "zor",
+    "soru": "Türkiye'nin ilk uydusu hangisidir?",
+    "secenekler": {
+      "A": "Türksat 1B",
+      "B": "Bilsat",
+      "C": "Rasat",
+      "D": "Göktürk"
+    },
+    "dogru": "B"
+  },
+  {
+    "id": 70,
+    "seviye": "zor",
+    "soru": "Osmanlı Devleti'nin ilk başkenti neresidir?",
+    "secenekler": {
+      "A": "Bursa",
+      "B": "Edirne",
+      "C": "İstanbul",
+      "D": "Söğüt"
+    },
+    "dogru": "D"
+  },
+
+  {
+    "id": 71,
+    "seviye": "zor",
+    "soru": "Sanayi Devrimi ilk olarak hangi ülkede başlamıştır?",
+    "secenekler": {
+      "A": "Fransa",
+      "B": "Almanya",
+      "C": "İngiltere",
+      "D": "ABD"
+    },
+    "dogru": "C"
+  },
+  {
+    "id": 72,
+    "seviye": "zor",
+    "soru": "Dünyanın en eski üniversitesi hangisidir?",
+    "secenekler": {
+      "A": "Oxford",
+      "B": "Bologna",
+      "C": "Paris",
+      "D": "Cambridge"
+    },
+    "dogru": "B"
+  },
+  {
+    "id": 73,
+    "seviye": "zor",
+    "soru": "Türkiye'de ilk kadın milletvekilleri hangi yıl meclise girmiştir?",
+    "secenekler": {
+      "A": "1923",
+      "B": "1930",
+      "C": "1934",
+      "D": "1935"
+    },
+    "dogru": "D"
+  },
+  {
+    "id": 74,
+    "seviye": "zor",
+    "soru": "Hangisi Anadolu'da kurulan ilk Türk devletidir?",
+    "secenekler": {
+      "A": "Osmanlı",
+      "B": "Selçuklu",
+      "C": "Danişmentliler",
+      "D": "Türkiye Selçukluları"
+    },
+    "dogru": "D"
+  },
+  {
+    "id": 75,
+    "seviye": "zor",
+    "soru": "Bir ülkenin ithalatı ihracatından fazla ise buna ne denir?",
+    "secenekler": {
+      "A": "Fazla",
+      "B": "Denge",
+      "C": "Açık",
+      "D": "Artış"
+    },
+    "dogru": "C"
+  }
+][
+  {
+    "id": 251,
+    "seviye": "orta",
+    "soru": "Türkiye'nin üç tarafını çevreleyen denizler hangileridir?",
+    "secenekler": {
+      "A": "Karadeniz-Ege-Akdeniz",
+      "B": "Ege-Marmara-Akdeniz",
+      "C": "Karadeniz-Marmara-Akdeniz",
+      "D": "Karadeniz-Ege-Kızıldeniz"
+    },
+    "dogru": "A"
+  },
+  {
+    "id": 252,
+    "seviye": "orta",
+    "soru": "Hangisi bir maden değildir?",
+    "secenekler": {
+      "A": "Bor",
+      "B": "Altın",
+      "C": "Petrol",
+      "D": "Demir"
+    },
+    "dogru": "C"
+  },
+  {
+    "id": 253,
+    "seviye": "orta",
+    "soru": "İnsan vücudunda kanı pompalayan organ hangisidir?",
+    "secenekler": {
+      "A": "Akciğer",
+      "B": "Beyin",
+      "C": "Kalp",
+      "D": "Böbrek"
+    },
+    "dogru": "C"
+  },
+  {
+    "id": 254,
+    "seviye": "orta",
+    "soru": "Türkiye'nin en yüksek dağı hangisidir?",
+    "secenekler": {
+      "A": "Erciyes",
+      "B": "Kaçkar",
+      "C": "Ağrı",
+      "D": "Süphan"
+    },
+    "dogru": "C"
+  },
+  {
+    "id": 255,
+    "seviye": "orta",
+    "soru": "Dünyanın en uzun nehirlerinden Amazon hangi kıtadadır?",
+    "secenekler": {
+      "A": "Afrika",
+      "B": "Asya",
+      "C": "Güney Amerika",
+      "D": "Kuzey Amerika"
+    },
+    "dogru": "C"
+  },
+
+  {
+    "id": 256,
+    "seviye": "zor",
+    "soru": "Osmanlı Devleti'nde ilk düzenli orduyu kuran padişah kimdir?",
+    "secenekler": {
+      "A": "Osman Gazi",
+      "B": "Orhan Gazi",
+      "C": "I. Murat",
+      "D": "Yıldırım Bayezid"
+    },
+    "dogru": "B"
+  },
+  {
+    "id": 257,
+    "seviye": "zor",
+    "soru": "Türkiye'de kadınlara milletvekili seçme ve seçilme hakkı hangi yıl verilmiştir?",
+    "secenekler": {
+      "A": "1930",
+      "B": "1932",
+      "C": "1934",
+      "D": "1936"
+    },
+    "dogru": "C"
+  },
+  {
+    "id": 258,
+    "seviye": "zor",
+    "soru": "Hangisi Dünya Sağlık Örgütü'nün kuruluş amaçlarından biridir?",
+    "secenekler": {
+      "A": "Askeri ittifak kurmak",
+      "B": "Küresel sağlığı geliştirmek",
+      "C": "Ekonomik birlik sağlamak",
+      "D": "Enerji paylaşımı"
+    },
+    "dogru": "B"
+  },
+  {
+    "id": 259,
+    "seviye": "zor",
+    "soru": "İlk Türk-İslam Devleti hangisidir?",
+    "secenekler": {
+      "A": "Gazneliler",
+      "B": "Büyük Selçuklu",
+      "C": "Karahanlılar",
+      "D": "Harzemşahlar"
+    },
+    "dogru": "C"
+  },
+  {
+    "id": 260,
+    "seviye": "zor",
+    "soru": "Türkiye'de ilk anayasa hangi yıl ilan edilmiştir?",
+    "secenekler": {
+      "A": "1876",
+      "B": "1908",
+      "C": "1921",
+      "D": "1924"
+    },
+    "dogru": "A"
+  },
+
+  {
+    "id": 261,
+    "seviye": "zor",
+    "soru": "Hangisi doğal göl değildir?",
+    "secenekler": {
+      "A": "Van",
+      "B": "Tuz",
+      "C": "Beyşehir",
+      "D": "Atatürk Baraj Gölü"
+    },
+    "dogru": "D"
+  },
+  {
+    "id": 262,
+    "seviye": "zor",
+    "soru": "Dünyanın en yoğun nüfuslu ülkesi hangisidir?",
+    "secenekler": {
+      "A": "Bangladeş",
+      "B": "Monako",
+      "C": "Çin",
+      "D": "Hindistan"
+    },
+    "dogru": "B"
+  },
+  {
+    "id": 263,
+    "seviye": "zor",
+    "soru": "Osmanlı Devleti'nde ilk kâğıt para hangi adla çıkarılmıştır?",
+    "secenekler": {
+      "A": "Akçe",
+      "B": "Mangır",
+      "C": "Kaime",
+      "D": "Lira"
+    },
+    "dogru": "C"
+  },
+  {
+    "id": 264,
+    "seviye": "zor",
+    "soru": "Bir ülkenin ihracat gelirlerinin ithalat giderlerinden fazla olmasına ne denir?",
+    "secenekler": {
+      "A": "Dış borç",
+      "B": "Cari açık",
+      "C": "Cari fazla",
+      "D": "Enflasyon"
+    },
+    "dogru": "C"
+  },
+  {
+    "id": 265,
+    "seviye": "zor",
+    "soru": "Hangisi Orta Çağ'da kullanılan bir silah değildir?",
+    "secenekler": {
+      "A": "Kılıç",
+      "B": "Mızrak",
+      "C": "Top",
+      "D": "Yay"
+    },
+    "dogru": "C"
+  },
+
+  {
+    "id": 266,
+    "seviye": "zor",
+    "soru": "Türkiye'nin en fazla ihracat yaptığı ülke genellikle hangisidir?",
+    "secenekler": {
+      "A": "Rusya",
+      "B": "Almanya",
+      "C": "ABD",
+      "D": "Çin"
+    },
+    "dogru": "B"
+  },
+  {
+    "id": 267,
+    "seviye": "zor",
+    "soru": "Dünya'nın kendi ekseni etrafındaki dönüş süresi yaklaşık kaç saattir?",
+    "secenekler": {
+      "A": "12",
+      "B": "18",
+      "C": "24",
+      "D": "30"
+    },
+    "dogru": "C"
+  },
+  {
+    "id": 268,
+    "seviye": "zor",
+    "soru": "Hangisi Türklerin Orta Asya'dan göç nedenlerinden biri değildir?",
+    "secenekler": {
+      "A": "Kuraklık",
+      "B": "Nüfus artışı",
+      "C": "Din değiştirme",
+      "D": "Hayvancılık"
+    },
+    "dogru": "C"
+  },
+  {
+    "id": 269,
+    "seviye": "zor",
+    "soru": "Türkiye'de ilk beş yıllık kalkınma planı hangi yıl uygulanmıştır?",
+    "secenekler": {
+      "A": "1933",
+      "B": "1950",
+      "C": "1963",
+      "D": "1970"
+    },
+    "dogru": "C"
+  },
+  {
+    "id": 270,
+    "seviye": "zor",
+    "soru": "Hangisi Atatürk döneminde kurulan bankalardan biri değildir?",
+    "secenekler": {
+      "A": "İş Bankası",
+      "B": "Ziraat Bankası",
+      "C": "Merkez Bankası",
+      "D": "Etibank"
+    },
+    "dogru": "B"
+  }
+][
+  {
+    "id": 351,
+    "seviye": "orta",
+    "soru": "Türkiye'nin en büyük kapalı havzası hangisidir?",
+    "secenekler": {
+      "A": "Konya",
+      "B": "Tuz Gölü",
+      "C": "Van",
+      "D": "Beyşehir"
+    },
+    "dogru": "A"
+  },
+  {
+    "id": 352,
+    "seviye": "orta",
+    "soru": "Hangisi bir sera gazıdır?",
+    "secenekler": {
+      "A": "Oksijen",
+      "B": "Azot",
+      "C": "Karbondioksit",
+      "D": "Helyum"
+    },
+    "dogru": "C"
+  },
+  {
+    "id": 353,
+    "seviye": "orta",
+    "soru": "İnsan vücudunda en fazla su içeren organ hangisidir?",
+    "secenekler": {
+      "A": "Akciğer",
+      "B": "Beyin",
+      "C": "Kas",
+      "D": "Kan"
+    },
+    "dogru": "D"
+  },
+  {
+    "id": 354,
+    "seviye": "orta",
+    "soru": "Türkiye'nin ilk yerli otomobili hangisidir?",
+    "secenekler": {
+      "A": "Anadol",
+      "B": "Devrim",
+      "C": "Tofaş",
+      "D": "TOGG"
+    },
+    "dogru": "B"
+  },
+  {
+    "id": 355,
+    "seviye": "orta",
+    "soru": "Dünyanın en büyük okyanusu hangisidir?",
+    "secenekler": {
+      "A": "Atlas",
+      "B": "Hint",
+      "C": "Pasifik",
+      "D": "Arktik"
+    },
+    "dogru": "C"
+  },
+
+  {
+    "id": 356,
+    "seviye": "zor",
+    "soru": "Osmanlı Devleti'nde ilk kez devlet bütçesi hangi dönemde hazırlanmıştır?",
+    "secenekler": {
+      "A": "II. Mahmut",
+      "B": "Abdülmecid",
+      "C": "Abdülaziz",
+      "D": "II. Abdülhamid"
+    },
+    "dogru": "B"
+  },
+  {
+    "id": 357,
+    "seviye": "zor",
+    "soru": "Hangisi Misak-ı Milli kararları arasında yer almaz?",
+    "secenekler": {
+      "A": "Kapitülasyonların kaldırılması",
+      "B": "Boğazların statüsü",
+      "C": "Milli sınırların korunması",
+      "D": "Azınlık haklarında karşılıklılık"
+    },
+    "dogru": "B"
+  },
+  {
+    "id": 358,
+    "seviye": "zor",
+    "soru": "Türkiye'de ilk nüfus sayımı hangi yılda yapılmıştır?",
+    "secenekler": {
+      "A": "1923",
+      "B": "1927",
+      "C": "1930",
+      "D": "1935"
+    },
+    "dogru": "B"
+  },
+  {
+    "id": 359,
+    "seviye": "zor",
+    "soru": "Hangisi Osmanlı Devleti'nde tanzimat dönemi padişahıdır?",
+    "secenekler": {
+      "A": "III. Selim",
+      "B": "II. Mahmut",
+      "C": "Abdülmecid",
+      "D": "V. Mehmet"
+    },
+    "dogru": "C"
+  },
+  {
+    "id": 360,
+    "seviye": "zor",
+    "soru": "Dünya üzerinde ilk yazılı anayasa hangi ülkede kabul edilmiştir?",
+    "secenekler": {
+      "A": "Fransa",
+      "B": "ABD",
+      "C": "İngiltere",
+      "D": "Almanya"
+    },
+    "dogru": "B"
+  },
+
+  {
+    "id": 361,
+    "seviye": "zor",
+    "soru": "Türkiye'de ilk baraj hangisidir?",
+    "secenekler": {
+      "A": "Sarıyar",
+      "B": "Keban",
+      "C": "Hirfanlı",
+      "D": "Çubuk"
+    },
+    "dogru": "D"
+  },
+  {
+    "id": 362,
+    "seviye": "zor",
+    "soru": "Hangisi Türk Medeni Kanunu'nun alındığı ülkedir?",
+    "secenekler": {
+      "A": "Fransa",
+      "B": "İtalya",
+      "C": "İsviçre",
+      "D": "Almanya"
+    },
+    "dogru": "C"
+  },
+  {
+    "id": 363,
+    "seviye": "zor",
+    "soru": "Osmanlı Devleti'nde ilk matbaa hangi dönemde kurulmuştur?",
+    "secenekler": {
+      "A": "Lale Devri",
+      "B": "Tanzimat",
+      "C": "Islahat",
+      "D": "Gerileme"
+    },
+    "dogru": "A"
+  },
+  {
+    "id": 364,
+    "seviye": "zor",
+    "soru": "Hangisi Kurtuluş Savaşı cephelerinden biri değildir?",
+    "secenekler": {
+      "A": "Doğu",
+      "B": "Batı",
+      "C": "Güney",
+      "D": "Kuzey"
+    },
+    "dogru": "D"
+  },
+  {
+    "id": 365,
+    "seviye": "zor",
+    "soru": "Atatürk ilkelerinden hangisi sosyal devlet anlayışını temsil eder?",
+    "secenekler": {
+      "A": "Laiklik",
+      "B": "Devletçilik",
+      "C": "Milliyetçilik",
+      "D": "Cumhuriyetçilik"
+    },
+    "dogru": "B"
+  },
+
+  {
+    "id": 366,
+    "seviye": "zor",
+    "soru": "Dünyanın en büyük aktif yanardağı hangisidir?",
+    "secenekler": {
+      "A": "Vezüv",
+      "B": "Etna",
+      "C": "Mauna Loa",
+      "D": "Fuji"
+    },
+    "dogru": "C"
+  },
+  {
+    "id": 367,
+    "seviye": "zor",
+    "soru": "Türkiye'nin ilk beş yıllık kalkınma planı hangi alana öncelik vermiştir?",
+    "secenekler": {
+      "A": "Tarım",
+      "B": "Sanayi",
+      "C": "Turizm",
+      "D": "Ulaşım"
+    },
+    "dogru": "B"
+  },
+  {
+    "id": 368,
+    "seviye": "zor",
+    "soru": "Hangisi Türk Tarih Kurumu'nun kuruluş amaçlarından biridir?",
+    "secenekler": {
+      "A": "Osmanlı arşivlerini kapatmak",
+      "B": "Türk tarihini bilimsel olarak incelemek",
+      "C": "Eğitim müfredatını belirlemek",
+      "D": "Dil reformu yapmak"
+    },
+    "dogru": "B"
+  },
+  {
+    "id": 369,
+    "seviye": "zor",
+    "soru": "Türkiye'de ilk kadın bakan kimdir?",
+    "secenekler": {
+      "A": "Türkan Akyol",
+      "B": "Meral Akşener",
+      "C": "Fatma Şahin",
+      "D": "Nimet Çubukçu"
+    },
+    "dogru": "A"
+  },
+  {
+    "id": 370,
+    "seviye": "zor",
+    "soru": "Hangisi Osmanlı Devleti'nde ilmiye sınıfına ait değildir?",
+    "secenekler": {
+      "A": "Kadı",
+      "B": "Müderris",
+      "C": "Defterdar",
+      "D": "Şeyhülislam"
+    },
+    "dogru": "C"
+  }
+][
+  {
+    "id": 451,
+    "seviye": "zor",
+    "soru": "Osmanlı Devleti'nde ilk defa azınlıklara devlet memuru olma hakkı hangi fermanla verilmiştir?",
+    "secenekler": {
+      "A": "Tanzimat Fermanı",
+      "B": "Islahat Fermanı",
+      "C": "Kanun-i Esasi",
+      "D": "Sened-i İttifak"
+    },
+    "dogru": "B"
+  },
+  {
+    "id": 452,
+    "seviye": "zor",
+    "soru": "Dünyanın en büyük iç denizi hangisidir?",
+    "secenekler": {
+      "A": "Karadeniz",
+      "B": "Hazar Denizi",
+      "C": "Akdeniz",
+      "D": "Kızıldeniz"
+    },
+    "dogru": "B"
+  },
+  {
+    "id": 453,
+    "seviye": "zor",
+    "soru": "Türkiye'nin en batıdaki ili hangisidir?",
+    "secenekler": {
+      "A": "Çanakkale",
+      "B": "Edirne",
+      "C": "İzmir",
+      "D": "Tekirdağ"
+    },
+    "dogru": "B"
+  },
+  {
+    "id": 454,
+    "seviye": "zor",
+    "soru": "Hangisi Birleşmiş Milletler'e bağlı kuruluşlardan biri değildir?",
+    "secenekler": {
+      "A": "UNESCO",
+      "B": "UNICEF",
+      "C": "NATO",
+      "D": "WHO"
+    },
+    "dogru": "C"
+  },
+  {
+    "id": 455,
+    "seviye": "zor",
+    "soru": "Türkiye'de ilk özel televizyon kanalı hangisidir?",
+    "secenekler": {
+      "A": "Star TV",
+      "B": "Kanal D",
+      "C": "Show TV",
+      "D": "ATV"
+    },
+    "dogru": "A"
+  },
+
+  {
+    "id": 456,
+    "seviye": "zor",
+    "soru": "Hangisi Osmanlı Devleti'nde Divan-ı Hümayun üyesi değildir?",
+    "secenekler": {
+      "A": "Sadrazam",
+      "B": "Kazasker",
+      "C": "Defterdar",
+      "D": "Nişancı",
+      "E": "Subaşı"
+    },
+    "dogru": "E"
+  },
+  {
+    "id": 457,
+    "seviye": "zor",
+    "soru": "Türkiye Cumhuriyeti'nde ilk beş yıllık kalkınma planı hangi dönemde hazırlanmıştır?",
+    "secenekler": {
+      "A": "Atatürk",
+      "B": "İnönü",
+      "C": "Menderes",
+      "D": "Demirel"
+    },
+    "dogru": "B"
+  },
+  {
+    "id": 458,
+    "seviye": "zor",
+    "soru": "Hangisi Orta Çağ Avrupası'nda kullanılan bir yönetim sistemidir?",
+    "secenekler": {
+      "A": "Feodalizm",
+      "B": "Kapitalizm",
+      "C": "Sosyalizm",
+      "D": "Liberalizm"
+    },
+    "dogru": "A"
+  },
+  {
+    "id": 459,
+    "seviye": "zor",
+    "soru": "Türkiye'nin en büyük barajı hangisidir?",
+    "secenekler": {
+      "A": "Keban",
+      "B": "Atatürk",
+      "C": "Karakaya",
+      "D": "Hirfanlı"
+    },
+    "dogru": "B"
+  },
+  {
+    "id": 460,
+    "seviye": "zor",
+    "soru": "Dünyanın en uzun süre tahtta kalan hükümdarlarından biri kimdir?",
+    "secenekler": {
+      "A": "Napolyon",
+      "B": "Kraliçe II. Elizabeth",
+      "C": "Hitler",
+      "D": "Sezar"
+    },
+    "dogru": "B"
+  },
+
+  {
+    "id": 461,
+    "seviye": "zor",
+    "soru": "Türkiye'nin ilk kadın belediye başkanı kimdir?",
+    "secenekler": {
+      "A": "Türkan Akyol",
+      "B": "Meral Akşener",
+      "C": "Müfide İlhan",
+      "D": "Fatma Şahin"
+    },
+    "dogru": "C"
+  },
+  {
+    "id": 462,
+    "seviye": "zor",
+    "soru": "Hangisi bir ölçü birimi değildir?",
+    "secenekler": {
+      "A": "Newton",
+      "B": "Joule",
+      "C": "Pascal",
+      "D": "Volt",
+      "E": "Watt-saat"
+    },
+    "dogru": "E"
+  },
+  {
+    "id": 463,
+    "seviye": "zor",
+    "soru": "Osmanlı Devleti'nde ilk posta teşkilatı hangi dönemde kurulmuştur?",
+    "secenekler": {
+      "A": "III. Selim",
+      "B": "II. Mahmut",
+      "C": "Abdülmecid",
+      "D": "II. Abdülhamid"
+    },
+    "dogru": "B"
+  },
+  {
+    "id": 464,
+    "seviye": "zor",
+    "soru": "Dünya üzerinde en fazla ülke hangi kıtadadır?",
+    "secenekler": {
+      "A": "Asya",
+      "B": "Afrika",
+      "C": "Avrupa",
+      "D": "Güney Amerika"
+    },
+    "dogru": "B"
+  },
+  {
+    "id": 465,
+    "seviye": "zor",
+    "soru": "Türkiye'nin ilk kadın valisi kimdir?",
+    "secenekler": {
+      "A": "Lale Aytaman",
+      "B": "Ayşe Çelik",
+      "C": "Canan Kaftancıoğlu",
+      "D": "Meral Akşener"
+    },
+    "dogru": "A"
+  },
+
+  {
+    "id": 466,
+    "seviye": "zor",
+    "soru": "Hangisi Türkiye'deki milli bayramlardan biri değildir?",
+    "secenekler": {
+      "A": "23 Nisan",
+      "B": "30 Ağustos",
+      "C": "29 Ekim",
+      "D": "15 Temmuz",
+      "E": "1 Mayıs"
+    },
+    "dogru": "E"
+  },
+  {
+    "id": 467,
+    "seviye": "zor",
+    "soru": "Osmanlı Devleti'nde eyaletleri yöneten kişiye ne ad verilirdi?",
+    "secenekler": {
+      "A": "Kadı",
+      "B": "Beylerbeyi",
+      "C": "Subaşı",
+      "D": "Sancakbeyi"
+    },
+    "dogru": "B"
+  },
+  {
+    "id": 468,
+    "seviye": "zor",
+    "soru": "Hangisi Türkiye'nin komşu denizlerinden biri değildir?",
+    "secenekler": {
+      "A": "Ege",
+      "B": "Karadeniz",
+      "C": "Akdeniz",
+      "D": "Adriyatik"
+    },
+    "dogru": "D"
+  },
+  {
+    "id": 469,
+    "seviye": "zor",
+    "soru": "Atatürk'ün Nutuk'u ilk kez hangi yıl okunmuştur?",
+    "secenekler": {
+      "A": "1923",
+      "B": "1925",
+      "C": "1927",
+      "D": "1929"
+    },
+    "dogru": "C"
+  },
+  {
+    "id": 470,
+    "seviye": "zor",
+    "soru": "Hangisi bir uluslararası saat dilimi başlangıç meridyenidir?",
+    "secenekler": {
+      "A": "Ekvator",
+      "B": "Greenwich",
+      "C": "Yengeç",
+      "D": "Oğlak"
+    },
+    "dogru": "B"
+  }
+][
+  {
+    "id": 501,
+    "seviye": "orta",
+    "soru": "Türkiye'nin yüzölçümü en büyük ili hangisidir?",
+    "secenekler": {
+      "A": "Konya",
+      "B": "Ankara",
+      "C": "Sivas",
+      "D": "Erzurum"
+    },
+    "dogru": "A"
+  },
+  {
+    "id": 502,
+    "seviye": "orta",
+    "soru": "Hangisi bir Nobel ödülü kategorisi değildir?",
+    "secenekler": {
+      "A": "Fizik",
+      "B": "Kimya",
+      "C": "Matematik",
+      "D": "Edebiyat"
+    },
+    "dogru": "C"
+  },
+  {
+    "id": 503,
+    "seviye": "orta",
+    "soru": "Türkiye'de medeni kanun hangi ülkeden alınmıştır?",
+    "secenekler": {
+      "A": "Almanya",
+      "B": "Fransa",
+      "C": "İtalya",
+      "D": "İsviçre"
+    },
+    "dogru": "D"
+  },
+  {
+    "id": 504,
+    "seviye": "orta",
+    "soru": "Dünyanın en kalabalık ülkesi hangisidir?",
+    "secenekler": {
+      "A": "ABD",
+      "B": "Hindistan",
+      "C": "Çin",
+      "D": "Endonezya"
+    },
+    "dogru": "B"
+  },
+  {
+    "id": 505,
+    "seviye": "orta",
+    "soru": "Hangisi Türkiye'de yer alan bir volkanik dağdır?",
+    "secenekler": {
+      "A": "Uludağ",
+      "B": "Ilgaz",
+      "C": "Nemrut",
+      "D": "Yıldız"
+    },
+    "dogru": "C"
+  },
+
+  {
+    "id": 506,
+    "seviye": "zor",
+    "soru": "Osmanlı Devleti'nde ilk kağıt para hangi padişah döneminde basılmıştır?",
+    "secenekler": {
+      "A": "II. Mahmut",
+      "B": "Abdülmecid",
+      "C": "Abdülaziz",
+      "D": "II. Abdülhamid"
+    },
+    "dogru": "B"
+  },
+  {
+    "id": 507,
+    "seviye": "zor",
+    "soru": "Hangisi Türkiye'nin Akdeniz Bölgesi'nde yer almaz?",
+    "secenekler": {
+      "A": "Antalya",
+      "B": "Mersin",
+      "C": "Adana",
+      "D": "Hatay"
+    },
+    "dogru": "D"
+  },
+  {
+    "id": 508,
+    "seviye": "zor",
+    "soru": "Fransız İhtilali'nin temel sonuçlarından biri değildir?",
+    "secenekler": {
+      "A": "Milliyetçilik",
+      "B": "Eşitlik",
+      "C": "Mutlak monarşi",
+      "D": "Hukuk devleti"
+    },
+    "dogru": "C"
+  },
+  {
+    "id": 509,
+    "seviye": "zor",
+    "soru": "Hangisi bir gök cismi değildir?",
+    "secenekler": {
+      "A": "Asteroit",
+      "B": "Meteor",
+      "C": "Uydu",
+      "D": "Atmosfer"
+    },
+    "dogru": "D"
+  },
+  {
+    "id": 510,
+    "seviye": "zor",
+    "soru": "Türkiye'nin en uzun tüneli hangisidir?",
+    "secenekler": {
+      "A": "Ovit",
+      "B": "Bolu",
+      "C": "Zigana",
+      "D": "Avrasya"
+    },
+    "dogru": "C"
+  },
+
+  {
+    "id": 511,
+    "seviye": "orta",
+    "soru": "Hangisi bir enerji kaynağı değildir?",
+    "secenekler": {
+      "A": "Petrol",
+      "B": "Rüzgar",
+      "C": "Doğalgaz",
+      "D": "Toprak"
+    },
+    "dogru": "D"
+  },
+  {
+    "id": 512,
+    "seviye": "orta",
+    "soru": "Türkiye hangi yarımkürede yer alır?",
+    "secenekler": {
+      "A": "Güney",
+      "B": "Batı",
+      "C": "Kuzey",
+      "D": "Doğu"
+    },
+    "dogru": "C"
+  },
+  {
+    "id": 513,
+    "seviye": "orta",
+    "soru": "Hangisi bir dünya okyanusu değildir?",
+    "secenekler": {
+      "A": "Atlas",
+      "B": "Hint",
+      "C": "Büyük",
+      "D": "Aral"
+    },
+    "dogru": "D"
+  },
+  {
+    "id": 514,
+    "seviye": "orta",
+    "soru": "Türkiye'de en fazla nüfusa sahip il hangisidir?",
+    "secenekler": {
+      "A": "Ankara",
+      "B": "İstanbul",
+      "C": "İzmir",
+      "D": "Bursa"
+    },
+    "dogru": "B"
+  },
+  {
+    "id": 515,
+    "seviye": "orta",
+    "soru": "Hangisi bir temel insan hakkı değildir?",
+    "secenekler": {
+      "A": "Yaşama hakkı",
+      "B": "Eğitim hakkı",
+      "C": "Seçme hakkı",
+      "D": "Vergi alma hakkı"
+    },
+    "dogru": "D"
+][
+  {
+    "id": 601,
+    "seviye": "orta",
+    "soru": "Türkiye'nin en uzun nehri hangisidir?",
+    "secenekler": {
+      "A": "Fırat",
+      "B": "Dicle",
+      "C": "Kızılırmak",
+      "D": "Sakarya"
+    },
+    "dogru": "C"
+  },
+  {
+    "id": 602,
+    "seviye": "orta",
+    "soru": "Hangisi bir kıta değildir?",
+    "secenekler": {
+      "A": "Afrika",
+      "B": "Avrupa",
+      "C": "Antarktika",
+      "D": "Grönland"
+    },
+    "dogru": "D"
+  },
+  {
+    "id": 603,
+    "seviye": "orta",
+    "soru": "Türkiye'de ilk üniversite hangisidir?",
+    "secenekler": {
+      "A": "Ankara Üniversitesi",
+      "B": "İstanbul Üniversitesi",
+      "C": "ODTÜ",
+      "D": "Ege Üniversitesi"
+    },
+    "dogru": "B"
+  },
+  {
+    "id": 604,
+    "seviye": "orta",
+    "soru": "Hangisi bir elementtir?",
+    "secenekler": {
+      "A": "Su",
+      "B": "Hava",
+      "C": "Oksijen",
+      "D": "Tuz"
+    },
+    "dogru": "C"
+  },
+  {
+    "id": 605,
+    "seviye": "orta",
+    "soru": "Bir yılda kaç mevsim vardır?",
+    "secenekler": {
+      "A": "2",
+      "B": "3",
+      "C": "4",
+      "D": "5"
+    },
+    "dogru": "C"
+  },
+
+  {
+    "id": 606,
+    "seviye": "zor",
+    "soru": "Osmanlı Devleti'nde ilk anayasa hangi yılda ilan edilmiştir?",
+    "secenekler": {
+      "A": "1839",
+      "B": "1856",
+      "C": "1876",
+      "D": "1908"
+    },
+    "dogru": "C"
+  },
+  {
+    "id": 607,
+    "seviye": "zor",
+    "soru": "Dünyanın en derin gölü hangisidir?",
+    "secenekler": {
+      "A": "Hazar",
+      "B": "Baykal",
+      "C": "Tanganika",
+      "D": "Superior"
+    },
+    "dogru": "B"
+  },
+  {
+    "id": 608,
+    "seviye": "zor",
+    "soru": "Hangisi Türkiye'deki boğazlardan biri değildir?",
+    "secenekler": {
+      "A": "İstanbul",
+      "B": "Çanakkale",
+      "C": "Bering",
+      "D": "Türk Boğazları"
+    },
+    "dogru": "C"
+  },
+  {
+    "id": 609,
+    "seviye": "zor",
+    "soru": "Rönesans ilk olarak hangi ülkede başlamıştır?",
+    "secenekler": {
+      "A": "Fransa",
+      "B": "İtalya",
+      "C": "Almanya",
+      "D": "İngiltere"
+    },
+    "dogru": "B"
+  },
+  {
+    "id": 610,
+    "seviye": "zor",
+    "soru": "Türkiye'nin ilk yerli otomobili hangisidir?",
+    "secenekler": {
+      "A": "Tofaş",
+      "B": "Anadol",
+      "C": "Serçe",
+      "D": "TOGG"
+    },
+    "dogru": "B"
+  },
+
+  {
+    "id": 611,
+    "seviye": "orta",
+    "soru": "Hangisi bir gezegen değildir?",
+    "secenekler": {
+      "A": "Mars",
+      "B": "Venüs",
+      "C": "Plüton",
+      "D": "Jüpiter"
+    },
+    "dogru": "C"
+  },
+  {
+    "id": 612,
+    "seviye": "orta",
+    "soru": "Türkiye'de kaç coğrafi bölge vardır?",
+    "secenekler": {
+      "A": "5",
+      "B": "6",
+      "C": "7",
+      "D": "8"
+    },
+    "dogru": "C"
+  },
+  {
+    "id": 613,
+    "seviye": "orta",
+    "soru": "Hangisi bir iletişim aracı değildir?",
+    "secenekler": {
+      "A": "Telefon",
+      "B": "Televizyon",
+      "C": "Gazete",
+      "D": "Jeneratör"
+    },
+    "dogru": "D"
+  },
+  {
+    "id": 614,
+    "seviye": "orta",
+    "soru": "Türkiye'nin başkenti hangi yılda Ankara olmuştur?",
+    "secenekler": {
+      "A": "1920",
+      "B": "1921",
+      "C": "1923",
+      "D": "1925"
+    },
+    "dogru": "C"
+  },
+  {
+    "id": 615,
+    "seviye": "orta",
+    "soru": "Hangisi bir tarım ürünü değildir?",
+    "secenekler": {
+      "A": "Buğday",
+      "B": "Mısır",
+      "C": "Pamuk",
+      "D": "Petrol"
+    },
+    "dogru": "D"
+  },
+
+  {
+    "id": 616,
+    "seviye": "zor",
+    "soru": "Türkiye'de ilk nüfus sayımı hangi yıl yapılmıştır?",
+    "secenekler": {
+      "A": "1923",
+      "B": "1927",
+      "C": "1930",
+      "D": "1935"
+    },
+    "dogru": "B"
+  },
+  {
+    "id": 617,
+    "seviye": "zor",
+    "soru": "Hangisi bir iklim tipi değildir?",
+    "secenekler": {
+      "A": "Muson",
+      "B": "Karasal",
+      "C": "Tropikal",
+      "D": "Volkanik"
+    },
+    "dogru": "D"
+  },
+  {
+    "id": 618,
+    "seviye": "zor",
+    "soru": "Atatürk ilk kez hangi cephede savaşmıştır?",
+    "secenekler": {
+      "A": "Çanakkale",
+      "B": "Trablusgarp",
+      "C": "Kafkas",
+      "D": "Balkan"
+    },
+    "dogru": "B"
+  },
+  {
+    "id": 619,
+    "seviye": "zor",
+    "soru": "Dünyanın en büyük çölü hangisidir?",
+    "secenekler": {
+      "A": "Sahra",
+      "B": "Gobi",
+      "C": "Kalahari",
+      "D": "Antarktika"
+    },
+    "dogru": "D"
+  },
+  {
+    "id": 620,
+    "seviye": "zor",
+    "soru": "Hangisi bir uluslararası örgüt değildir?",
+    "secenekler": {
+      "A": "BM",
+      "B": "NATO",
+      "C": "AB",
+      "D": "OPEC",
+      "E": "TCDD"
+    },
+    "dogru": "E"
+  }
+][
+  {
+    "id": 701,
+    "seviye": "orta",
+    "soru": "Türkiye'nin en yüksek dağı hangisidir?",
+    "secenekler": {
+      "A": "Erciyes",
+      "B": "Kaçkar",
+      "C": "Ağrı",
+      "D": "Süphan"
+    },
+    "dogru": "C"
+  },
+  {
+    "id": 702,
+    "seviye": "orta",
+    "soru": "Hangisi bir doğal afet değildir?",
+    "secenekler": {
+      "A": "Deprem",
+      "B": "Sel",
+      "C": "Heyelan",
+      "D": "Erozyon"
+    },
+    "dogru": "D"
+  },
+  {
+    "id": 703,
+    "seviye": "orta",
+    "soru": "Türkiye'nin en kalabalık ikinci ili hangisidir?",
+    "secenekler": {
+      "A": "İzmir",
+      "B": "Bursa",
+      "C": "Ankara",
+      "D": "Antalya"
+    },
+    "dogru": "C"
+  },
+  {
+    "id": 704,
+    "seviye": "orta",
+    "soru": "Hangisi bir maden değildir?",
+    "secenekler": {
+      "A": "Altın",
+      "B": "Gümüş",
+      "C": "Demir",
+      "D": "Petrol"
+    },
+    "dogru": "D"
+  },
+  {
+    "id": 705,
+    "seviye": "orta",
+    "soru": "Bir gün kaç saattir?",
+    "secenekler": {
+      "A": "12",
+      "B": "18",
+      "C": "24",
+      "D": "36"
+    },
+    "dogru": "C"
+  },
+
+  {
+    "id": 706,
+    "seviye": "zor",
+    "soru": "Osmanlı Devleti'nde ilk kez meşrutiyet hangi padişah döneminde ilan edilmiştir?",
+    "secenekler": {
+      "A": "II. Mahmut",
+      "B": "Abdülaziz",
+      "C": "II. Abdülhamid",
+      "D": "V. Mehmet"
+    },
+    "dogru": "C"
+  },
+  {
+    "id": 707,
+    "seviye": "zor",
+    "soru": "Dünyanın yüzölçümü en büyük ülkesi hangisidir?",
+    "secenekler": {
+      "A": "ABD",
+      "B": "Kanada",
+      "C": "Çin",
+      "D": "Rusya"
+    },
+    "dogru": "D"
+  },
+  {
+    "id": 708,
+    "seviye": "zor",
+    "soru": "Hangisi Türkiye'nin Karadeniz Bölgesi'nde yer almaz?",
+    "secenekler": {
+      "A": "Samsun",
+      "B": "Trabzon",
+      "C": "Rize",
+      "D": "Artvin",
+      "E": "Tokat"
+    },
+    "dogru": "E"
+  },
+  {
+    "id": 709,
+    "seviye": "zor",
+    "soru": "Magna Carta hangi ülkede imzalanmıştır?",
+    "secenekler": {
+      "A": "Fransa",
+      "B": "İtalya",
+      "C": "İngiltere",
+      "D": "Almanya"
+    },
+    "dogru": "C"
+  },
+  {
+    "id": 710,
+    "seviye": "zor",
+    "soru": "Türkiye'nin ilk kadın bakanı kimdir?",
+    "secenekler": {
+      "A": "Meral Akşener",
+      "B": "Türkan Akyol",
+      "C": "Fatma Şahin",
+      "D": "Lale Aytaman"
+    },
+    "dogru": "B"
+  },
+
+  {
+    "id": 711,
+    "seviye": "orta",
+    "soru": "Hangisi bir sıvı yakıttır?",
+    "secenekler": {
+      "A": "Kömür",
+      "B": "Benzin",
+      "C": "Doğalgaz",
+      "D": "Odun"
+    },
+    "dogru": "B"
+  },
+  {
+    "id": 712,
+    "seviye": "orta",
+    "soru": "Türkiye'nin doğusunda yer alan deniz hangisidir?",
+    "secenekler": {
+      "A": "Ege",
+      "B": "Akdeniz",
+      "C": "Karadeniz",
+      "D": "Türkiye'nin doğusunda deniz yoktur"
+    },
+    "dogru": "D"
+  },
+  {
+    "id": 713,
+    "seviye": "orta",
+    "soru": "Hangisi bir tarih öncesi çağ değildir?",
+    "secenekler": {
+      "A": "Taş Devri",
+      "B": "Tunç Devri",
+      "C": "Demir Devri",
+      "D": "Uzay Devri"
+    },
+    "dogru": "D"
+  },
+  {
+    "id": 714,
+    "seviye": "orta",
+    "soru": "Türkiye'de en fazla üretilen tarım ürünü hangisidir?",
+    "secenekler": {
+      "A": "Buğday",
+      "B": "Pamuk",
+      "C": "Zeytin",
+      "D": "Çay"
+    },
+    "dogru": "A"
+  },
+  {
+    "id": 715,
+    "seviye": "orta",
+    "soru": "Hangisi bir iletişim uydusudur?",
+    "secenekler": {
+      "A": "Göktürk",
+      "B": "Bilsat",
+      "C": "Türksat",
+      "D": "RASAT"
+    },
+    "dogru": "C"
+  },
+
+  {
+    "id": 716,
+    "seviye": "zor",
+    "soru": "Atatürk'ün Samsun'a çıkışı hangi gemi ile olmuştur?",
+    "secenekler": {
+      "A": "Bandırma",
+      "B": "Savarya",
+      "C": "Yavuz",
+      "D": "Hamidiye"
+    },
+    "dogru": "A"
+  },
+  {
+    "id": 717,
+    "seviye": "zor",
+    "soru": "Hangisi bir iç kuvvet değildir?",
+    "secenekler": {
+      "A": "Deprem",
+      "B": "Volkanizma",
+      "C": "Orojenez",
+      "D": "Erozyon"
+    },
+    "dogru": "D"
+  },
+  {
+    "id": 718,
+    "seviye": "zor",
+    "soru": "Türkiye'de ilk demiryolu hattı hangi şehirler arasında kurulmuştur?",
+    "secenekler": {
+      "A": "İstanbul–Ankara",
+      "B": "İzmir–Aydın",
+      "C": "Adana–Mersin",
+      "D": "Eskişehir–Ankara"
+    },
+    "dogru": "B"
+  },
+  {
+    "id": 719,
+    "seviye": "zor",
+    "soru": "Dünya Sağlık Örgütü'nün merkezi hangi şehirdedir?",
+    "secenekler": {
+      "A": "New York",
+      "B": "Paris",
+      "C": "Cenevre",
+      "D": "Viyana"
+    },
+    "dogru": "C"
+  },
+  {
+    "id": 720,
+    "seviye": "zor",
+    "soru": "Hangisi Türkiye'nin UNESCO Dünya Mirası Listesi'nde yer almaz?",
+    "secenekler": {
+      "A": "Göbeklitepe",
+      "B": "Pamukkale",
+      "C": "Kapadokya",
+      "D": "Salda Gölü"
+    },
+    "dogru": "D"
+  }
+][
+  {
+    "id": 801,
+    "seviye": "orta",
+    "soru": "Türkiye'nin en büyük gölü hangisidir?",
+    "secenekler": {
+      "A": "Tuz Gölü",
+      "B": "Van Gölü",
+      "C": "Beyşehir Gölü",
+      "D": "Eğirdir Gölü"
+    },
+    "dogru": "B"
+  },
+  {
+    "id": 802,
+    "seviye": "orta",
+    "soru": "Hangisi bir yenilenebilir enerji kaynağıdır?",
+    "secenekler": {
+      "A": "Kömür",
+      "B": "Petrol",
+      "C": "Güneş",
+      "D": "Doğalgaz"
+    },
+    "dogru": "C"
+  },
+  {
+    "id": 803,
+    "seviye": "orta",
+    "soru": "Türkiye'nin en kalabalık üçüncü ili hangisidir?",
+    "secenekler": {
+      "A": "Bursa",
+      "B": "İzmir",
+      "C": "Antalya",
+      "D": "Adana"
+    },
+    "dogru": "B"
+  },
+  {
+    "id": 804,
+    "seviye": "orta",
+    "soru": "Hangisi bir astronomi terimi değildir?",
+    "secenekler": {
+      "A": "Yıldız",
+      "B": "Gezegen",
+      "C": "Galaksi",
+      "D": "Atmosfer"
+    },
+    "dogru": "D"
+  },
+  {
+    "id": 805,
+    "seviye": "orta",
+    "soru": "Bir yılda kaç ay vardır?",
+    "secenekler": {
+      "A": "10",
+      "B": "11",
+      "C": "12",
+      "D": "13"
+    },
+    "dogru": "C"
+  },
+
+  {
+    "id": 806,
+    "seviye": "zor",
+    "soru": "Osmanlı Devleti'nde ilk kez düzenli ordu hangi padişah döneminde kurulmuştur?",
+    "secenekler": {
+      "A": "Orhan Bey",
+      "B": "I. Murat",
+      "C": "Fatih Sultan Mehmet",
+      "D": "Yavuz Sultan Selim"
+    },
+    "dogru": "B"
+  },
+  {
+    "id": 807,
+    "seviye": "zor",
+    "soru": "Dünyanın en uzun nehri hangisidir?",
+    "secenekler": {
+      "A": "Amazon",
+      "B": "Nil",
+      "C": "Yangtze",
+      "D": "Mississippi"
+    },
+    "dogru": "B"
+  },
+  {
+    "id": 808,
+    "seviye": "zor",
+    "soru": "Hangisi Türkiye'nin sınır komşularından biri değildir?",
+    "secenekler": {
+      "A": "İran",
+      "B": "Irak",
+      "C": "Azerbaycan",
+      "D": "Gürcistan",
+      "E": "Moldova"
+    },
+    "dogru": "E"
+  },
+  {
+    "id": 809,
+    "seviye": "zor",
+    "soru": "Sanayi Devrimi ilk olarak hangi ülkede başlamıştır?",
+    "secenekler": {
+      "A": "Almanya",
+      "B": "Fransa",
+      "C": "İngiltere",
+      "D": "ABD"
+    },
+    "dogru": "C"
+  },
+  {
+    "id": 810,
+    "seviye": "zor",
+    "soru": "Türkiye'nin ilk kadın milletvekilleri hangi yıl meclise girmiştir?",
+    "secenekler": {
+      "A": "1923",
+      "B": "1930",
+      "C": "1934",
+      "D": "1935"
+    },
+    "dogru": "D"
+  },
+
+  {
+    "id": 811,
+    "seviye": "orta",
+    "soru": "Hangisi bir basınç birimidir?",
+    "secenekler": {
+      "A": "Joule",
+      "B": "Pascal",
+      "C": "Watt",
+      "D": "Volt"
+    },
+    "dogru": "B"
+  },
+  {
+    "id": 812,
+    "seviye": "orta",
+    "soru": "Türkiye'nin en uzun kıyı şeridi hangi denizdedir?",
+    "secenekler": {
+      "A": "Karadeniz",
+      "B": "Ege",
+      "C": "Akdeniz",
+      "D": "Marmara"
+    },
+    "dogru": "C"
+  },
+  {
+    "id": 813,
+    "seviye": "orta",
+    "soru": "Hangisi bir ekonomi terimi değildir?",
+    "secenekler": {
+      "A": "Enflasyon",
+      "B": "Deflasyon",
+      "C": "Reform",
+      "D": "Fotosentez"
+    },
+    "dogru": "D"
+  },
+  {
+    "id": 814,
+    "seviye": "orta",
+    "soru": "Türkiye'nin para birimi hangisidir?",
+    "secenekler": {
+      "A": "Euro",
+      "B": "Dolar",
+      "C": "Türk Lirası",
+      "D": "Sterlin"
+    },
+    "dogru": "C"
+  },
+  {
+    "id": 815,
+    "seviye": "orta",
+    "soru": "Hangisi bir halk oyunu değildir?",
+    "secenekler": {
+      "A": "Zeybek",
+      "B": "Horon",
+      "C": "Halay",
+      "D": "Vals"
+    },
+    "dogru": "D"
+  },
+
+  {
+    "id": 816,
+    "seviye": "zor",
+    "soru": "Atatürk'ün en son katıldığı savaş hangisidir?",
+    "secenekler": {
+      "A": "Çanakkale",
+      "B": "Sakarya",
+      "C": "Büyük Taarruz",
+      "D": "Trablusgarp"
+    },
+    "dogru": "C"
+  },
+  {
+    "id": 817,
+    "seviye": "zor",
+    "soru": "Hangisi bir uluslararası mahkemedir?",
+    "secenekler": {
+      "A": "Danıştay",
+      "B": "Anayasa Mahkemesi",
+      "C": "Lahey Adalet Divanı",
+      "D": "Yargıtay"
+    },
+    "dogru": "C"
+  },
+  {
+    "id": 818,
+    "seviye": "zor",
+    "soru": "Türkiye'nin en uzun kara sınırı hangi ülke iledir?",
+    "secenekler": {
+      "A": "Suriye",
+      "B": "Irak",
+      "C": "İran",
+      "D": "Yunanistan"
+    },
+    "dogru": "A"
+  },
+  {
+    "id": 819,
+    "seviye": "zor",
+    "soru": "Dünya'nın Güneş'e en yakın olduğu noktanın adı nedir?",
+    "secenekler": {
+      "A": "Afel",
+      "B": "Perihel",
+      "C": "Ekinoks",
+      "D": "Solstis"
+    },
+    "dogru": "B"
+  },
+  {
+    "id": 820,
+    "seviye": "zor",
+    "soru": "Hangisi bir Türk destanı değildir?",
+    "secenekler": {
+      "A": "Ergenekon",
+      "B": "Oğuz Kağan",
+      "C": "Manas",
+      "D": "İlyada"
+    },
+    "dogru": "D"
+  }
+][
+  {
+    "id": 901,
+    "seviye": "orta",
+    "soru": "Türkiye'nin en uzun kıyı şeridine sahip ili hangisidir?",
+    "secenekler": {
+      "A": "Antalya",
+      "B": "Muğla",
+      "C": "İzmir",
+      "D": "Mersin"
+    },
+    "dogru": "B"
+  },
+  {
+    "id": 902,
+    "seviye": "orta",
+    "soru": "Hangisi bir temel besin grubu değildir?",
+    "secenekler": {
+      "A": "Protein",
+      "B": "Karbonhidrat",
+      "C": "Vitamin",
+      "D": "Plastik"
+    },
+    "dogru": "D"
+  },
+  {
+    "id": 903,
+    "seviye": "orta",
+    "soru": "Türkiye'nin en doğusundaki ili hangisidir?",
+    "secenekler": {
+      "A": "Ağrı",
+      "B": "Iğdır",
+      "C": "Van",
+      "D": "Hakkari"
+    },
+    "dogru": "B"
+  },
+  {
+    "id": 904,
+    "seviye": "orta",
+    "soru": "Hangisi bir yazılım dili değildir?",
+    "secenekler": {
+      "A": "Python",
+      "B": "Java",
+      "C": "HTML",
+      "D": "Photoshop"
+    },
+    "dogru": "D"
+  },
+  {
+    "id": 905,
+    "seviye": "orta",
+    "soru": "Bir haftada kaç gün vardır?",
+    "secenekler": {
+      "A": "5",
+      "B": "6",
+      "C": "7",
+      "D": "8"
+    },
+    "dogru": "C"
+  },
+
+  {
+    "id": 906,
+    "seviye": "zor",
+    "soru": "Osmanlı Devleti'nde ilk kez tımar sistemi hangi padişah döneminde uygulanmıştır?",
+    "secenekler": {
+      "A": "Osman Bey",
+      "B": "Orhan Bey",
+      "C": "I. Murat",
+      "D": "Yıldırım Bayezid"
+    },
+    "dogru": "B"
+  },
+  {
+    "id": 907,
+    "seviye": "zor",
+    "soru": "Dünyanın en büyük okyanusu hangisidir?",
+    "secenekler": {
+      "A": "Atlas",
+      "B": "Hint",
+      "C": "Büyük Okyanus",
+      "D": "Güney"
+    },
+    "dogru": "C"
+  },
+  {
+    "id": 908,
+    "seviye": "zor",
+    "soru": "Hangisi Türkiye'nin iç sularından biri değildir?",
+    "secenekler": {
+      "A": "Van Gölü",
+      "B": "Tuz Gölü",
+      "C": "Hazar Denizi",
+      "D": "Beyşehir Gölü"
+    },
+    "dogru": "C"
+  },
+  {
+    "id": 909,
+    "seviye": "zor",
+    "soru": "Aydınlanma Çağı'nın öncülerinden biri değildir?",
+    "secenekler": {
+      "A": "Voltaire",
+      "B": "Rousseau",
+      "C": "Montesquieu",
+      "D": "Machiavelli"
+    },
+    "dogru": "D"
+  },
+  {
+    "id": 910,
+    "seviye": "zor",
+    "soru": "Türkiye'nin ilk kadın başbakanı kimdir?",
+    "secenekler": {
+      "A": "Meral Akşener",
+      "B": "Tansu Çiller",
+      "C": "Fatma Şahin",
+      "D": "Lale Aytaman"
+    },
+    "dogru": "B"
+  },
+
+  {
+    "id": 911,
+    "seviye": "orta",
+    "soru": "Hangisi bir ölçü birimi değildir?",
+    "secenekler": {
+      "A": "Metre",
+      "B": "Kilogram",
+      "C": "Saniye",
+      "D": "Litre/saat"
+    },
+    "dogru": "D"
+  },
+  {
+    "id": 912,
+    "seviye": "orta",
+    "soru": "Türkiye'nin en yağışlı bölgesi hangisidir?",
+    "secenekler": {
+      "A": "Ege",
+      "B": "Akdeniz",
+      "C": "Karadeniz",
+      "D": "İç Anadolu"
+    },
+    "dogru": "C"
+  },
+  {
+    "id": 913,
+    "seviye": "orta",
+    "soru": "Hangisi bir sosyal medya platformu değildir?",
+    "secenekler": {
+      "A": "Instagram",
+      "B": "X",
+      "C": "LinkedIn",
+      "D": "Chrome"
+    },
+    "dogru": "D"
+  },
+  {
+    "id": 914,
+    "seviye": "orta",
+    "soru": "Türkiye'nin en eski milli parkı hangisidir?",
+    "secenekler": {
+      "A": "Yozgat Çamlığı",
+      "B": "Uludağ",
+      "C": "Köprülü Kanyon",
+      "D": "Kaz Dağları"
+    },
+    "dogru": "A"
+  },
+  {
+    "id": 915,
+    "seviye": "orta",
+    "soru": "Hangisi bir sanat akımı değildir?",
+    "secenekler": {
+      "A": "Empresyonizm",
+      "B": "Kübizm",
+      "C": "Realizm",
+      "D": "Termodinamik"
+    },
+    "dogru": "D"
+  },
+
+  {
+    "id": 916,
+    "seviye": "zor",
+    "soru": "Atatürk'ün 'Yurtta sulh, cihanda sulh' sözü hangi ilkeyle ilgilidir?",
+    "secenekler": {
+      "A": "Milliyetçilik",
+      "B": "Devletçilik",
+      "C": "Barışçılık",
+      "D": "Halkçılık"
+    },
+    "dogru": "C"
+  },
+  {
+    "id": 917,
+    "seviye": "zor",
+    "soru": "Hangisi bir uluslararası spor organizasyonu değildir?",
+    "secenekler": {
+      "A": "FIFA",
+      "B": "UEFA",
+      "C": "IOC",
+      "D": "TFF"
+    },
+    "dogru": "D"
+  },
+  {
+    "id": 918,
+    "seviye": "zor",
+    "soru": "Türkiye'nin ilk sivil anayasası hangi yılda yürürlüğe girmiştir?",
+    "secenekler": {
+      "A": "1921",
+      "B": "1924",
+      "C": "1961",
+      "D": "1982"
+    },
+    "dogru": "B"
+  },
+  {
+    "id": 919,
+    "seviye": "zor",
+    "soru": "Dünya'nın kendi ekseni etrafında dönmesi sonucu ne oluşur?",
+    "secenekler": {
+      "A": "Mevsimler",
+      "B": "Gece ve gündüz",
+      "C": "Yıl",
+      "D": "Ay tutulması"
+    },
+    "dogru": "B"
+  },
+  {
+    "id": 920,
+    "seviye": "zor",
+    "soru": "Hangisi bir Türk halk edebiyatı türü değildir?",
+    "secenekler": {
+      "A": "Destan",
+      "B": "Koşma",
+      "C": "Gazel",
+      "D": "Mani"
+    },
+    "dogru": "C"
+  }
+]
