@@ -1,148 +1,122 @@
 import json
+import random
 
-questions = [
+questions_base = [
     {
-        "id": 0,
         "soru": "Celsius ve Fahrenheit hangi sıcaklıkta eşit olur?",
         "secenekler": {"A": "-10", "B": "-20", "C": "-40", "D": "0"},
         "dogru": "C"
     },
     {
-        "id": 1,
         "soru": "Güneş ışığının Dünya'ya ulaşması yaklaşık ne kadar sürer?",
         "secenekler": {"A": "8 dakika", "B": "1 saat", "C": "1 saniye", "D": "24 saat"},
         "dogru": "A"
     },
     {
-        "id": 2,
         "soru": "Oda sıcaklığında sıvı olan tek metal hangisidir?",
         "secenekler": {"A": "Demir", "B": "Cıva", "C": "Bakır", "D": "Alüminyum"},
         "dogru": "B"
     },
     {
-        "id": 3,
         "soru": "Einstein'ın enerji-kütle ilişkisini gösteren formülü hangisidir?",
         "secenekler": {"A": "F=ma", "B": "E=mc²", "C": "V=IR", "D": "PV=nRT"},
         "dogru": "B"
     },
     {
-        "id": 4,
         "soru": "En büyük çöl hangisidir?",
         "secenekler": {"A": "Sahra", "B": "Gobi", "C": "Antarktika", "D": "Kalahari"},
         "dogru": "C"
     },
     {
-        "id": 5,
         "soru": "Sovyetler tarafından uzaya gönderilen ilk yapay uydu hangisidir?",
         "secenekler": {"A": "Apollo 1", "B": "Sputnik 1", "C": "Voyager 1", "D": "Hubble"},
         "dogru": "B"
     },
     {
-        "id": 6,
         "soru": "Saat yönünde dönen tek gezegen hangisidir?",
         "secenekler": {"A": "Mars", "B": "Venüs", "C": "Jüpiter", "D": "Merkür"},
         "dogru": "B"
     },
     {
-        "id": 7,
         "soru": "Köpekbalıklarının kaç kemiği vardır?",
         "secenekler": {"A": "206", "B": "0", "C": "50", "D": "120"},
         "dogru": "B"
     },
     {
-        "id": 8,
         "soru": "Bambu bitkisi hangi kategoriye girer?",
         "secenekler": {"A": "Ağaç", "B": "Çalı", "C": "Ot/Çim türü", "D": "Yosun"},
         "dogru": "C"
     },
     {
-        "id": 9,
         "soru": "Seismology hangi bilimi inceler?",
         "secenekler": {"A": "Depremler", "B": "Volkanlar", "C": "Denizler", "D": "Rüzgarlar"},
         "dogru": "A"
     },
     {
-        "id": 10,
         "soru": "Napolyon'un yenilgisiyle sonuçlanan savaş hangisidir?",
         "secenekler": {"A": "Waterloo", "B": "Normandiya", "C": "Verdun", "D": "Trafalgar"},
         "dogru": "A"
     },
     {
-        "id": 11,
         "soru": "Kara Veba Avrupa'ya yaklaşık hangi yılda ulaştı?",
         "secenekler": {"A": "1492", "B": "1347", "C": "1776", "D": "1914"},
         "dogru": "B"
     },
     {
-        "id": 12,
         "soru": "İlk modern insanın Afrika'da ortaya çıkışı yaklaşık ne zamandır?",
         "secenekler": {"A": "50.000 yıl", "B": "315.000 yıl", "C": "1 milyon yıl", "D": "10.000 yıl"},
         "dogru": "B"
     },
     {
-        "id": 13,
         "soru": "Çivi yazısı hangi uygarlık tarafından kullanılmıştır?",
         "secenekler": {"A": "Roma", "B": "Mezopotamya", "C": "Çin", "D": "Maya"},
         "dogru": "B"
     },
     {
-        "id": 14,
         "soru": "Üçüncü köle isyanını yöneten gladyatör kimdir?",
         "secenekler": {"A": "Sezar", "B": "Spartacus", "C": "Nero", "D": "Augustus"},
         "dogru": "B"
     },
     {
-        "id": 15,
         "soru": "İlk kadın Nobel ödülü kazanan kişi kimdir?",
         "secenekler": {"A": "Marie Curie", "B": "Rosalind Franklin", "C": "Ada Lovelace", "D": "Dorothy Hodgkin"},
         "dogru": "A"
     },
     {
-        "id": 16,
         "soru": "Berlin Duvarı hangi yıl yıkıldı?",
         "secenekler": {"A": "1975", "B": "1989", "C": "1995", "D": "1961"},
         "dogru": "B"
     },
     {
-        "id": 17,
         "soru": "Titanic hangi yıl battı?",
         "secenekler": {"A": "1912", "B": "1905", "C": "1920", "D": "1898"},
         "dogru": "A"
     },
     {
-        "id": 18,
         "soru": "İlk ABD başkanı kimdir?",
         "secenekler": {"A": "Lincoln", "B": "Washington", "C": "Jefferson", "D": "Roosevelt"},
         "dogru": "B"
     },
     {
-        "id": 19,
         "soru": "Kolomb Amerika'ya hangi yıl ulaştı?",
         "secenekler": {"A": "1492", "B": "1453", "C": "1500", "D": "1520"},
         "dogru": "A"
     }
 ]
 
-# Mevcut 20 soruyu 10000'e tamamlamak için kopyala
-original_count = len(questions)
 target_count = 10000
+questions = []
 
-for i in range(original_count, target_count):
-    # Mevcut soruları döngüsel olarak kopyala
-    base_idx = i % original_count
-    base_question = questions[base_idx].copy()
-    
-    # Yeni soru oluştur
-    new_question = {
+for i in range(target_count):
+    base = random.choice(questions_base)
+    questions.append({
         "id": i,
-        "soru": base_question["soru"].replace(str(base_idx), str(i)),
-        "secenekler": base_question["secenekler"].copy(),
-        "dogru": base_question["dogru"]
-    }
-    questions.append(new_question)
+        "soru": base["soru"],
+        "secenekler": base["secenekler"].copy(),
+        "dogru": base["dogru"]
+    })
 
-# JSON'a yaz
-with open('questions_10000.json', 'w', encoding='utf-8') as f:
+with open("questions_10000.json", "w", encoding="utf-8") as f:
     json.dump({"questions": questions}, f, ensure_ascii=False, indent=2)
 
-print(f"{len(questions)} soru kaydedildi.")
+print(f"{len(questions)} soru oluşturuldu ve questions_10000.json dosyasına kaydedildi.")
