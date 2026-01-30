@@ -1,5 +1,4 @@
 import json
-import random
 
 questions_base = [
     {
@@ -108,7 +107,7 @@ target_count = 10000
 questions = []
 
 for i in range(target_count):
-    base = random.choice(questions_base)
+    base = questions_base[i % len(questions_base)]
     questions.append({
         "id": i,
         "soru": base["soru"],
@@ -119,4 +118,4 @@ for i in range(target_count):
 with open("questions_10000.json", "w", encoding="utf-8") as f:
     json.dump({"questions": questions}, f, ensure_ascii=False, indent=2)
 
-print(f"{len(questions)} soru oluşturuldu ve questions_10000.json dosyasına kaydedildi.")
+print(len(questions))
