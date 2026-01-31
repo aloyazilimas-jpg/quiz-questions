@@ -44,7 +44,7 @@
     },
     {
       "id": 8,
-      "question": "Dünya Sağlık Örgütü (WHO) merkezi hangi şehirde bulunur?",
+      "question": "Dünya Sağlık Örgütü merkezi hangi şehirde bulunur?",
       "options": ["New York", "Cenevre", "Londra", "Paris"],
       "answer": 1
     },
@@ -301,4 +301,3 @@
       "answer": 0
     }
   ]
-}
