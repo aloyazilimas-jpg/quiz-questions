@@ -1,121 +1,304 @@
-import json
-
-questions_base = [
+{
+  "questions": [
     {
-        "soru": "Celsius ve Fahrenheit hangi sıcaklıkta eşit olur?",
-        "secenekler": {"A": "-10", "B": "-20", "C": "-40", "D": "0"},
-        "dogru": "C"
+      "id": 1,
+      "question": "Türkiye'nin başkenti neresidir?",
+      "options": ["İstanbul", "Ankara", "İzmir", "Bursa"],
+      "answer": 1
     },
     {
-        "soru": "Güneş ışığının Dünya'ya ulaşması yaklaşık ne kadar sürer?",
-        "secenekler": {"A": "8 dakika", "B": "1 saat", "C": "1 saniye", "D": "24 saat"},
-        "dogru": "A"
+      "id": 2,
+      "question": "Dünyanın en büyük gezegeni hangisidir?",
+      "options": ["Dünya", "Mars", "Jüpiter", "Satürn"],
+      "answer": 2
     },
     {
-        "soru": "Oda sıcaklığında sıvı olan tek metal hangisidir?",
-        "secenekler": {"A": "Demir", "B": "Cıva", "C": "Bakır", "D": "Alüminyum"},
-        "dogru": "B"
+      "id": 3,
+      "question": "Atatürk hangi yılda doğmuştur?",
+      "options": ["1881", "1879", "1885", "1890"],
+      "answer": 0
     },
     {
-        "soru": "Einstein'ın enerji-kütle ilişkisini gösteren formülü hangisidir?",
-        "secenekler": {"A": "F=ma", "B": "E=mc²", "C": "V=IR", "D": "PV=nRT"},
-        "dogru": "B"
+      "id": 4,
+      "question": "Türkiye'nin en uzun nehri hangisidir?",
+      "options": ["Kızılırmak", "Fırat", "Yeşilırmak", "Sakarya"],
+      "answer": 0
     },
     {
-        "soru": "En büyük çöl hangisidir?",
-        "secenekler": {"A": "Sahra", "B": "Gobi", "C": "Antarktika", "D": "Kalahari"},
-        "dogru": "C"
+      "id": 5,
+      "question": "Ay'ın Dünya etrafındaki dönüş süresi yaklaşık kaç gündür?",
+      "options": ["28", "30", "27", "29"],
+      "answer": 2
     },
     {
-        "soru": "Sovyetler tarafından uzaya gönderilen ilk yapay uydu hangisidir?",
-        "secenekler": {"A": "Apollo 1", "B": "Sputnik 1", "C": "Voyager 1", "D": "Hubble"},
-        "dogru": "B"
+      "id": 6,
+      "question": "İlk Nobel Edebiyat Ödülü hangi yıl verilmiştir?",
+      "options": ["1901", "1895", "1910", "1920"],
+      "answer": 0
     },
     {
-        "soru": "Saat yönünde dönen tek gezegen hangisidir?",
-        "secenekler": {"A": "Mars", "B": "Venüs", "C": "Jüpiter", "D": "Merkür"},
-        "dogru": "B"
+      "id": 7,
+      "question": "Hangi elementin sembolü 'O'dur?",
+      "options": ["Altın", "Oksijen", "Osmiyum", "Organik"],
+      "answer": 1
     },
     {
-        "soru": "Köpekbalıklarının kaç kemiği vardır?",
-        "secenekler": {"A": "206", "B": "0", "C": "50", "D": "120"},
-        "dogru": "B"
+      "id": 8,
+      "question": "Dünya Sağlık Örgütü (WHO) merkezi hangi şehirde bulunur?",
+      "options": ["New York", "Cenevre", "Londra", "Paris"],
+      "answer": 1
     },
     {
-        "soru": "Bambu bitkisi hangi kategoriye girer?",
-        "secenekler": {"A": "Ağaç", "B": "Çalı", "C": "Ot/Çim türü", "D": "Yosun"},
-        "dogru": "C"
+      "id": 9,
+      "question": "Hangi gezegen halkalarıyla ünlüdür?",
+      "options": ["Jüpiter", "Satürn", "Mars", "Venüs"],
+      "answer": 1
     },
     {
-        "soru": "Seismology hangi bilimi inceler?",
-        "secenekler": {"A": "Depremler", "B": "Volkanlar", "C": "Denizler", "D": "Rüzgarlar"},
-        "dogru": "A"
+      "id": 10,
+      "question": "Türkiye'nin en kalabalık şehri hangisidir?",
+      "options": ["Ankara", "İzmir", "İstanbul", "Bursa"],
+      "answer": 2
     },
     {
-        "soru": "Napolyon'un yenilgisiyle sonuçlanan savaş hangisidir?",
-        "secenekler": {"A": "Waterloo", "B": "Normandiya", "C": "Verdun", "D": "Trafalgar"},
-        "dogru": "A"
+      "id": 11,
+      "question": "İstanbul Boğazı hangi iki denizi birbirine bağlar?",
+      "options": ["Marmara ve Ege", "Karadeniz ve Marmara", "Ege ve Akdeniz", "Marmara ve Akdeniz"],
+      "answer": 1
     },
     {
-        "soru": "Kara Veba Avrupa'ya yaklaşık hangi yılda ulaştı?",
-        "secenekler": {"A": "1492", "B": "1347", "C": "1776", "D": "1914"},
-        "dogru": "B"
+      "id": 12,
+      "question": "Osmanlı Devleti hangi yılda kurulmuştur?",
+      "options": ["1299", "1453", "1071", "1517"],
+      "answer": 0
     },
     {
-        "soru": "İlk modern insanın Afrika'da ortaya çıkışı yaklaşık ne zamandır?",
-        "secenekler": {"A": "50.000 yıl", "B": "315.000 yıl", "C": "1 milyon yıl", "D": "10.000 yıl"},
-        "dogru": "B"
+      "id": 13,
+      "question": "Hangi hayvan memelidir?",
+      "options": ["Tavuk", "Balık", "Kedi", "Kurbağa"],
+      "answer": 2
     },
     {
-        "soru": "Çivi yazısı hangi uygarlık tarafından kullanılmıştır?",
-        "secenekler": {"A": "Roma", "B": "Mezopotamya", "C": "Çin", "D": "Maya"},
-        "dogru": "B"
+      "id": 14,
+      "question": "Hangi ülkenin bayrağında kırmızı zemin üzerinde beyaz hilal ve yıldız vardır?",
+      "options": ["Türkiye", "Pakistan", "Tunus", "Azerbaycan"],
+      "answer": 0
     },
     {
-        "soru": "Üçüncü köle isyanını yöneten gladyatör kimdir?",
-        "secenekler": {"A": "Sezar", "B": "Spartacus", "C": "Nero", "D": "Augustus"},
-        "dogru": "B"
+      "id": 15,
+      "question": "Türkiye'nin en yüksek dağı hangisidir?",
+      "options": ["Erciyes", "Kaçkar", "Ağrı", "Suphan"],
+      "answer": 2
     },
     {
-        "soru": "İlk kadın Nobel ödülü kazanan kişi kimdir?",
-        "secenekler": {"A": "Marie Curie", "B": "Rosalind Franklin", "C": "Ada Lovelace", "D": "Dorothy Hodgkin"},
-        "dogru": "A"
+      "id": 16,
+      "question": "Hangi dil resmi olarak Brezilya'da konuşulur?",
+      "options": ["İspanyolca", "Portekizce", "Fransızca", "İngilizce"],
+      "answer": 1
     },
     {
-        "soru": "Berlin Duvarı hangi yıl yıkıldı?",
-        "secenekler": {"A": "1975", "B": "1989", "C": "1995", "D": "1961"},
-        "dogru": "B"
+      "id": 17,
+      "question": "Atomun çekirdeğinde hangi parçacıklar bulunur?",
+      "options": ["Elektron ve Proton", "Proton ve Nötron", "Nötron ve Elektron", "Elektron ve Fotons"],
+      "answer": 1
     },
     {
-        "soru": "Titanic hangi yıl battı?",
-        "secenekler": {"A": "1912", "B": "1905", "C": "1920", "D": "1898"},
-        "dogru": "A"
+      "id": 18,
+      "question": "Hangi gezegen Dünya'ya en yakın olandır?",
+      "options": ["Venüs", "Mars", "Merkür", "Jüpiter"],
+      "answer": 0
     },
     {
-        "soru": "İlk ABD başkanı kimdir?",
-        "secenekler": {"A": "Lincoln", "B": "Washington", "C": "Jefferson", "D": "Roosevelt"},
-        "dogru": "B"
+      "id": 19,
+      "question": "İncil hangi dille yazılmıştır?",
+      "options": ["İbranice, Yunanca ve Aramice", "İngilizce", "Latince", "Almanca"],
+      "answer": 0
     },
     {
-        "soru": "Kolomb Amerika'ya hangi yıl ulaştı?",
-        "secenekler": {"A": "1492", "B": "1453", "C": "1500", "D": "1520"},
-        "dogru": "A"
+      "id": 20,
+      "question": "Hangi elementin sembolü 'Fe'dir?",
+      "options": ["Bakır", "Demir", "Fosfor", "Frenyum"],
+      "answer": 1
+    },
+    {
+      "id": 21,
+      "question": "Türkiye Cumhuriyeti'nin ilk cumhurbaşkanı kimdir?",
+      "options": ["İsmet İnönü", "Mustafa Kemal Atatürk", "Celal Bayar", "Cemal Gürsel"],
+      "answer": 1
+    },
+    {
+      "id": 22,
+      "question": "Hangi gezegen Güneş Sistemi’nin en küçük gezegenidir?",
+      "options": ["Merkür", "Mars", "Venüs", "Neptün"],
+      "answer": 0
+    },
+    {
+      "id": 23,
+      "question": "Hangi kıta en büyük yüzölçümüne sahiptir?",
+      "options": ["Afrika", "Asya", "Avrupa", "Antarktika"],
+      "answer": 1
+    },
+    {
+      "id": 24,
+      "question": "Hangi organ insan vücudunda en çok kan pompalayan organdır?",
+      "options": ["Akciğer", "Karaciğer", "Böbrek", "Kalp"],
+      "answer": 3
+    },
+    {
+      "id": 25,
+      "question": "Türk lirası hangi yılda yeniden değer kazanmıştır?",
+      "options": ["2000", "2005", "2009", "2010"],
+      "answer": 0
+    },
+    {
+      "id": 26,
+      "question": "Hangi ülke çay üretiminde dünyada ilk sıradadır?",
+      "options": ["Hindistan", "Çin", "Sri Lanka", "Japonya"],
+      "answer": 1
+    },
+    {
+      "id": 27,
+      "question": "Hangi şehir 'Gülşehir' olarak da bilinir?",
+      "options": ["Isparta", "Bursa", "Adana", "Antalya"],
+      "answer": 0
+    },
+    {
+      "id": 28,
+      "question": "Hangi spor dalı olimpik bir spordur?",
+      "options": ["Squash", "Golf", "Yüzme", "Bowling"],
+      "answer": 2
+    },
+    {
+      "id": 29,
+      "question": "Hangi ülke FIFA Dünya Kupası’nı en çok kazanmıştır?",
+      "options": ["Almanya", "Brezilya", "Arjantin", "İtalya"],
+      "answer": 1
+    },
+    {
+      "id": 30,
+      "question": "Hangi gezegen kırmızı gezegen olarak bilinir?",
+      "options": ["Mars", "Venüs", "Merkür", "Jüpiter"],
+      "answer": 0
+    },
+    {
+      "id": 31,
+      "question": "İstanbul’un eski adı nedir?",
+      "options": ["Byzantium", "Roma", "Constantinople", "Efes"],
+      "answer": 2
+    },
+    {
+      "id": 32,
+      "question": "Hangi sanatçı Mona Lisa tablosunu yapmıştır?",
+      "options": ["Michelangelo", "Leonardo da Vinci", "Raphael", "Donatello"],
+      "answer": 1
+    },
+    {
+      "id": 33,
+      "question": "Hangi ülkenin bayrağında kırmızı, beyaz ve mavi renkler vardır?",
+      "options": ["Fransa", "İtalya", "Almanya", "Japonya"],
+      "answer": 0
+    },
+    {
+      "id": 34,
+      "question": "Dünyada en çok konuşulan dil hangisidir?",
+      "options": ["İngilizce", "Çince", "İspanyolca", "Hintçe"],
+      "answer": 1
+    },
+    {
+      "id": 35,
+      "question": "Türkiye’nin en büyük gölü hangisidir?",
+      "options": ["Tuz Gölü", "Van Gölü", "Beyşehir Gölü", "Eğirdir Gölü"],
+      "answer": 1
+    },
+    {
+      "id": 36,
+      "question": "Hangi element suyun içinde bulunur?",
+      "options": ["Hidrojen ve Oksijen", "Hidrojen ve Karbon", "Oksijen ve Azot", "Karbon ve Oksijen"],
+      "answer": 0
+    },
+    {
+      "id": 37,
+      "question": "Hangi ülke Kuzey Amerika kıtasında yer almaz?",
+      "options": ["Kanada", "Meksika", "Brezilya", "ABD"],
+      "answer": 2
+    },
+    {
+      "id": 38,
+      "question": "Hangi hayvan uçabilen memelidir?",
+      "options": ["Sincap", "Yarasa", "Kedi", "Fare"],
+      "answer": 1
+    },
+    {
+      "id": 39,
+      "question": "Hangi yıl Ay’a ilk insan indi?",
+      "options": ["1965", "1969", "1971", "1973"],
+      "answer": 1
+    },
+    {
+      "id": 40,
+      "question": "Hangi renk sıcak renk grubuna girer?",
+      "options": ["Mavi", "Yeşil", "Kırmızı", "Mor"],
+      "answer": 2
+    },
+    {
+      "id": 41,
+      "question": "Hangi kıta en az nüfusa sahiptir?",
+      "options": ["Afrika", "Avrupa", "Antarktika", "Okyanusya"],
+      "answer": 2
+    },
+    {
+      "id": 42,
+      "question": "Türkiye Cumhuriyeti hangi yıl kurulmuştur?",
+      "options": ["1920", "1923", "1919", "1930"],
+      "answer": 1
+    },
+    {
+      "id": 43,
+      "question": "Hangi gezegen halkalarıyla ünlüdür?",
+      "options": ["Mars", "Jüpiter", "Satürn", "Venüs"],
+      "answer": 2
+    },
+    {
+      "id": 44,
+      "question": "Hangi gezegen Güneş’e en yakındır?",
+      "options": ["Merkür", "Venüs", "Dünya", "Mars"],
+      "answer": 0
+    },
+    {
+      "id": 45,
+      "question": "Türkiye’nin en büyük adası hangisidir?",
+      "options": ["Bozcaada", "Gökçeada", "Burgazada", "Heybeliada"],
+      "answer": 1
+    },
+    {
+      "id": 46,
+      "question": "Hangi elementin sembolü 'Na'dır?",
+      "options": ["Sodyum", "Nikel", "Nitrojen", "Neon"],
+      "answer": 0
+    },
+    {
+      "id": 47,
+      "question": "Hangi ülke uzun yıllar İngiltere’nin kolonisi olmuştur?",
+      "options": ["Hindistan", "Brezilya", "Meksika", "Rusya"],
+      "answer": 0
+    },
+    {
+      "id": 48,
+      "question": "Hangi şehir 'Rönesans'ın doğduğu yer olarak bilinir?",
+      "options": ["Floransa", "Paris", "Londra", "Berlin"],
+      "answer": 0
+    },
+    {
+      "id": 49,
+      "question": "Dünyanın en uzun nehri hangisidir?",
+      "options": ["Amazon", "Nil", "Yangtze", "Mississippi"],
+      "answer": 1
+    },
+    {
+      "id": 50,
+      "question": "Hangi Türk şair 'Kurtuluş Savaşı' şiirleri ile bilinir?",
+      "options": ["Nazım Hikmet", "Orhan Veli", "Cahit Sıtkı Tarancı", "Yahya Kemal Beyatlı"],
+      "answer": 0
     }
-]
-
-target_count = 10000
-questions = []
-
-for i in range(target_count):
-    base = questions_base[i % len(questions_base)]
-    questions.append({
-        "id": i,
-        "soru": base["soru"],
-        "secenekler": base["secenekler"].copy(),
-        "dogru": base["dogru"]
-    })
-
-with open("questions_10000.json", "w", encoding="utf-8") as f:
-    json.dump({"questions": questions}, f, ensure_ascii=False, indent=2)
-
-print(len(questions))
+  ]
+}
