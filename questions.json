@@ -1,303 +1,304 @@
 {
   "questions": [
     {
+      "id": 0,
+      "soru": "Işığın boşluktaki hızı yaklaşık kaç km/s'dir?",
+      "secenekler": { "A": "300.000", "B": "150.000", "C": "1.000.000", "D": "30.000" },
+      "dogru": "A"
+    },
+    {
       "id": 1,
-      "question": "Türkiye'nin başkenti neresidir?",
-      "options": ["İstanbul", "Ankara", "İzmir", "Bursa"],
-      "answer": 1
+      "soru": "DNA'nın açılımı nedir?",
+      "secenekler": { "A": "Deoksiribo Nükleik Asit", "B": "Dinamik Nöron Ağı", "C": "Doğal Nükleer Alan", "D": "Dijital Network Ağı" },
+      "dogru": "A"
     },
     {
       "id": 2,
-      "question": "Dünyanın en büyük gezegeni hangisidir?",
-      "options": ["Dünya", "Mars", "Jüpiter", "Satürn"],
-      "answer": 2
+      "soru": "Osmanlı Devleti hangi yılda kuruldu?",
+      "secenekler": { "A": "1071", "B": "1299", "C": "1453", "D": "1517" },
+      "dogru": "B"
     },
     {
       "id": 3,
-      "question": "Atatürk hangi yılda doğmuştur?",
-      "options": ["1881", "1879", "1885", "1890"],
-      "answer": 0
+      "soru": "Periyodik tabloda O sembolü hangi elementi temsil eder?",
+      "secenekler": { "A": "Osmiyum", "B": "Oksijen", "C": "Altın", "D": "Gümüş" },
+      "dogru": "B"
     },
     {
       "id": 4,
-      "question": "Türkiye'nin en uzun nehri hangisidir?",
-      "options": ["Kızılırmak", "Fırat", "Yeşilırmak", "Sakarya"],
-      "answer": 0
+      "soru": "Türkiye'nin en uzun nehri hangisidir?",
+      "secenekler": { "A": "Kızılırmak", "B": "Fırat", "C": "Dicle", "D": "Sakarya" },
+      "dogru": "A"
     },
     {
       "id": 5,
-      "question": "Ay'ın Dünya etrafındaki dönüş süresi yaklaşık kaç gündür?",
-      "options": ["28", "30", "27", "29"],
-      "answer": 2
+      "soru": "Pi sayısı yaklaşık kaçtır?",
+      "secenekler": { "A": "2.14", "B": "3.14", "C": "4.13", "D": "5.12" },
+      "dogru": "B"
     },
     {
       "id": 6,
-      "question": "İlk Nobel Edebiyat Ödülü hangi yıl verilmiştir?",
-      "options": ["1901", "1895", "1910", "1920"],
-      "answer": 0
+      "soru": "En büyük okyanus hangisidir?",
+      "secenekler": { "A": "Atlantik", "B": "Hint", "C": "Pasifik", "D": "Arktik" },
+      "dogru": "C"
     },
     {
       "id": 7,
-      "question": "Hangi elementin sembolü 'O'dur?",
-      "options": ["Altın", "Oksijen", "Osmiyum", "Organik"],
-      "answer": 1
+      "soru": "Einstein hangi bilim dalında Nobel almıştır?",
+      "secenekler": { "A": "Kimya", "B": "Fizik", "C": "Matematik", "D": "Biyoloji" },
+      "dogru": "B"
     },
     {
       "id": 8,
-      "question": "Dünya Sağlık Örgütü merkezi hangi şehirde bulunur?",
-      "options": ["New York", "Cenevre", "Londra", "Paris"],
-      "answer": 1
+      "soru": "İstanbul'un fethi hangi yıl oldu?",
+      "secenekler": { "A": "1071", "B": "1299", "C": "1453", "D": "1514" },
+      "dogru": "C"
     },
     {
       "id": 9,
-      "question": "Hangi gezegen halkalarıyla ünlüdür?",
-      "options": ["Jüpiter", "Satürn", "Mars", "Venüs"],
-      "answer": 1
+      "soru": "En küçük asal sayı hangisidir?",
+      "secenekler": { "A": "1", "B": "2", "C": "3", "D": "5" },
+      "dogru": "B"
     },
     {
       "id": 10,
-      "question": "Türkiye'nin en kalabalık şehri hangisidir?",
-      "options": ["Ankara", "İzmir", "İstanbul", "Bursa"],
-      "answer": 2
+      "soru": "İnsan kalbi ortalama dakikada kaç kez atar?",
+      "secenekler": { "A": "20", "B": "40", "C": "70", "D": "150" },
+      "dogru": "C"
     },
     {
       "id": 11,
-      "question": "İstanbul Boğazı hangi iki denizi birbirine bağlar?",
-      "options": ["Marmara ve Ege", "Karadeniz ve Marmara", "Ege ve Akdeniz", "Marmara ve Akdeniz"],
-      "answer": 1
+      "soru": "Fotosentez hangi organelde gerçekleşir?",
+      "secenekler": { "A": "Mitokondri", "B": "Kloroplast", "C": "Çekirdek", "D": "Ribozom" },
+      "dogru": "B"
     },
     {
       "id": 12,
-      "question": "Osmanlı Devleti hangi yılda kurulmuştur?",
-      "options": ["1299", "1453", "1071", "1517"],
-      "answer": 0
+      "soru": "Dünya'nın uydusunun adı nedir?",
+      "secenekler": { "A": "Mars", "B": "Venüs", "C": "Ay", "D": "Güneş" },
+      "dogru": "C"
     },
     {
       "id": 13,
-      "question": "Hangi hayvan memelidir?",
-      "options": ["Tavuk", "Balık", "Kedi", "Kurbağa"],
-      "answer": 2
+      "soru": "Fransız İhtilali hangi yılda başladı?",
+      "secenekler": { "A": "1789", "B": "1776", "C": "1815", "D": "1914" },
+      "dogru": "A"
     },
     {
       "id": 14,
-      "question": "Hangi ülkenin bayrağında kırmızı zemin üzerinde beyaz hilal ve yıldız vardır?",
-      "options": ["Türkiye", "Pakistan", "Tunus", "Azerbaycan"],
-      "answer": 0
+      "soru": "En sert doğal madde hangisidir?",
+      "secenekler": { "A": "Altın", "B": "Elmas", "C": "Demir", "D": "Gümüş" },
+      "dogru": "B"
     },
     {
       "id": 15,
-      "question": "Türkiye'nin en yüksek dağı hangisidir?",
-      "options": ["Erciyes", "Kaçkar", "Ağrı", "Suphan"],
-      "answer": 2
+      "soru": "Türkiye Cumhuriyeti hangi yıl kuruldu?",
+      "secenekler": { "A": "1919", "B": "1923", "C": "1938", "D": "1950" },
+      "dogru": "B"
     },
     {
       "id": 16,
-      "question": "Hangi dil resmi olarak Brezilya'da konuşulur?",
-      "options": ["İspanyolca", "Portekizce", "Fransızca", "İngilizce"],
-      "answer": 1
+      "soru": "E=mc² formülünde c neyi ifade eder?",
+      "secenekler": { "A": "Işık hızı", "B": "Ses hızı", "C": "Yerçekimi", "D": "Basınç" },
+      "dogru": "A"
     },
     {
       "id": 17,
-      "question": "Atomun çekirdeğinde hangi parçacıklar bulunur?",
-      "options": ["Elektron ve Proton", "Proton ve Nötron", "Nötron ve Elektron", "Elektron ve Fotons"],
-      "answer": 1
+      "soru": "Amazon Ormanları hangi kıtadadır?",
+      "secenekler": { "A": "Afrika", "B": "Asya", "C": "Güney Amerika", "D": "Avrupa" },
+      "dogru": "C"
     },
     {
       "id": 18,
-      "question": "Hangi gezegen Dünya'ya en yakın olandır?",
-      "options": ["Venüs", "Mars", "Merkür", "Jüpiter"],
-      "answer": 0
+      "soru": "Atom numarası neyi gösterir?",
+      "secenekler": { "A": "Nötron sayısı", "B": "Proton sayısı", "C": "Elektron sayısı", "D": "Kütle" },
+      "dogru": "B"
     },
     {
       "id": 19,
-      "question": "İncil hangi dille yazılmıştır?",
-      "options": ["İbranice, Yunanca ve Aramice", "İngilizce", "Latince", "Almanca"],
-      "answer": 0
+      "soru": "Kan kırmızı rengini hangi proteinden alır?",
+      "secenekler": { "A": "Hemoglobin", "B": "Keratin", "C": "Kolajen", "D": "İnsülin" },
+      "dogru": "A"
     },
     {
       "id": 20,
-      "question": "Hangi elementin sembolü 'Fe'dir?",
-      "options": ["Bakır", "Demir", "Fosfor", "Frenyum"],
-      "answer": 1
+      "soru": "En büyük gezegen hangisidir?",
+      "secenekler": { "A": "Mars", "B": "Jüpiter", "C": "Satürn", "D": "Venüs" },
+      "dogru": "B"
     },
     {
       "id": 21,
-      "question": "Türkiye Cumhuriyeti'nin ilk cumhurbaşkanı kimdir?",
-      "options": ["İsmet İnönü", "Mustafa Kemal Atatürk", "Celal Bayar", "Cemal Gürsel"],
-      "answer": 1
+      "soru": "Bir yıl kaç gündür?",
+      "secenekler": { "A": "360", "B": "365", "C": "400", "D": "500" },
+      "dogru": "B"
     },
     {
       "id": 22,
-      "question": "Hangi gezegen Güneş Sistemi’nin en küçük gezegenidir?",
-      "options": ["Merkür", "Mars", "Venüs", "Neptün"],
-      "answer": 0
+      "soru": "Dünya'nın en yüksek dağı hangisidir?",
+      "secenekler": { "A": "Everest", "B": "Ağrı", "C": "K2", "D": "Alpler" },
+      "dogru": "A"
     },
     {
       "id": 23,
-      "question": "Hangi kıta en büyük yüzölçümüne sahiptir?",
-      "options": ["Afrika", "Asya", "Avrupa", "Antarktika"],
-      "answer": 1
+      "soru": "İnsan vücudunda kaç kromozom vardır?",
+      "secenekler": { "A": "23", "B": "46", "C": "48", "D": "92" },
+      "dogru": "B"
     },
     {
       "id": 24,
-      "question": "Hangi organ insan vücudunda en çok kan pompalayan organdır?",
-      "options": ["Akciğer", "Karaciğer", "Böbrek", "Kalp"],
-      "answer": 3
+      "soru": "Hangi gaz solunum için gereklidir?",
+      "secenekler": { "A": "Azot", "B": "Oksijen", "C": "Helyum", "D": "Argon" },
+      "dogru": "B"
     },
     {
       "id": 25,
-      "question": "Türk lirası hangi yılda yeniden değer kazanmıştır?",
-      "options": ["2000", "2005", "2009", "2010"],
-      "answer": 0
+      "soru": "Dünya Güneş etrafında kaç günde döner?",
+      "secenekler": { "A": "24", "B": "30", "C": "365", "D": "720" },
+      "dogru": "C"
     },
     {
       "id": 26,
-      "question": "Hangi ülke çay üretiminde dünyada ilk sıradadır?",
-      "options": ["Hindistan", "Çin", "Sri Lanka", "Japonya"],
-      "answer": 1
+      "soru": "En hızlı kara hayvanı hangisidir?",
+      "secenekler": { "A": "Aslan", "B": "Çita", "C": "At", "D": "Kurt" },
+      "dogru": "B"
     },
     {
       "id": 27,
-      "question": "Hangi şehir 'Gülşehir' olarak da bilinir?",
-      "options": ["Isparta", "Bursa", "Adana", "Antalya"],
-      "answer": 0
+      "soru": "Elektriğin birimi nedir?",
+      "secenekler": { "A": "Volt", "B": "Metre", "C": "Litre", "D": "Gram" },
+      "dogru": "A"
     },
     {
       "id": 28,
-      "question": "Hangi spor dalı olimpik bir spordur?",
-      "options": ["Squash", "Golf", "Yüzme", "Bowling"],
-      "answer": 2
+      "soru": "Su kaç derecede donar?",
+      "secenekler": { "A": "0", "B": "10", "C": "50", "D": "100" },
+      "dogru": "A"
     },
     {
       "id": 29,
-      "question": "Hangi ülke FIFA Dünya Kupası’nı en çok kazanmıştır?",
-      "options": ["Almanya", "Brezilya", "Arjantin", "İtalya"],
-      "answer": 1
+      "soru": "Su kaç derecede kaynar?",
+      "secenekler": { "A": "50", "B": "75", "C": "100", "D": "150" },
+      "dogru": "C"
     },
     {
       "id": 30,
-      "question": "Hangi gezegen kırmızı gezegen olarak bilinir?",
-      "options": ["Mars", "Venüs", "Merkür", "Jüpiter"],
-      "answer": 0
+      "soru": "Türkiye'nin başkenti neresidir?",
+      "secenekler": { "A": "İstanbul", "B": "Ankara", "C": "İzmir", "D": "Bursa" },
+      "dogru": "B"
     },
     {
       "id": 31,
-      "question": "İstanbul’un eski adı nedir?",
-      "options": ["Byzantium", "Roma", "Constantinople", "Efes"],
-      "answer": 2
+      "soru": "Güneş hangi tür yıldızdır?",
+      "secenekler": { "A": "Kırmızı Dev", "B": "Sarı Cüce", "C": "Beyaz Cüce", "D": "Nötron" },
+      "dogru": "B"
     },
     {
       "id": 32,
-      "question": "Hangi sanatçı Mona Lisa tablosunu yapmıştır?",
-      "options": ["Michelangelo", "Leonardo da Vinci", "Raphael", "Donatello"],
-      "answer": 1
+      "soru": "İnsan vücudundaki en büyük organ hangisidir?",
+      "secenekler": { "A": "Karaciğer", "B": "Deri", "C": "Beyin", "D": "Akciğer" },
+      "dogru": "B"
     },
     {
       "id": 33,
-      "question": "Hangi ülkenin bayrağında kırmızı, beyaz ve mavi renkler vardır?",
-      "options": ["Fransa", "İtalya", "Almanya", "Japonya"],
-      "answer": 0
+      "soru": "Elektron hangi yüke sahiptir?",
+      "secenekler": { "A": "Pozitif", "B": "Negatif", "C": "Nötr", "D": "Değişken" },
+      "dogru": "B"
     },
     {
       "id": 34,
-      "question": "Dünyada en çok konuşulan dil hangisidir?",
-      "options": ["İngilizce", "Çince", "İspanyolca", "Hintçe"],
-      "answer": 1
+      "soru": "Mona Lisa tablosunu kim yapmıştır?",
+      "secenekler": { "A": "Van Gogh", "B": "Picasso", "C": "Da Vinci", "D": "Rembrandt" },
+      "dogru": "C"
     },
     {
       "id": 35,
-      "question": "Türkiye’nin en büyük gölü hangisidir?",
-      "options": ["Tuz Gölü", "Van Gölü", "Beyşehir Gölü", "Eğirdir Gölü"],
-      "answer": 1
+      "soru": "İlk insanlı Ay yolculuğu hangi yılda yapıldı?",
+      "secenekler": { "A": "1959", "B": "1969", "C": "1979", "D": "1989" },
+      "dogru": "B"
     },
     {
       "id": 36,
-      "question": "Hangi element suyun içinde bulunur?",
-      "options": ["Hidrojen ve Oksijen", "Hidrojen ve Karbon", "Oksijen ve Azot", "Karbon ve Oksijen"],
-      "answer": 0
+      "soru": "Bir byte kaç bittir?",
+      "secenekler": { "A": "4", "B": "8", "C": "16", "D": "32" },
+      "dogru": "B"
     },
     {
       "id": 37,
-      "question": "Hangi ülke Kuzey Amerika kıtasında yer almaz?",
-      "options": ["Kanada", "Meksika", "Brezilya", "ABD"],
-      "answer": 2
+      "soru": "Bilgisayarın beyni nedir?",
+      "secenekler": { "A": "RAM", "B": "CPU", "C": "SSD", "D": "GPU" },
+      "dogru": "B"
     },
     {
       "id": 38,
-      "question": "Hangi hayvan uçabilen memelidir?",
-      "options": ["Sincap", "Yarasa", "Kedi", "Fare"],
-      "answer": 1
+      "soru": "Hangi gezegen kızıl gezegen olarak bilinir?",
+      "secenekler": { "A": "Mars", "B": "Venüs", "C": "Merkür", "D": "Satürn" },
+      "dogru": "A"
     },
     {
       "id": 39,
-      "question": "Hangi yıl Ay’a ilk insan indi?",
-      "options": ["1965", "1969", "1971", "1973"],
-      "answer": 1
+      "soru": "Yerçekimini kim buldu?",
+      "secenekler": { "A": "Einstein", "B": "Newton", "C": "Tesla", "D": "Galileo" },
+      "dogru": "B"
     },
     {
       "id": 40,
-      "question": "Hangi renk sıcak renk grubuna girer?",
-      "options": ["Mavi", "Yeşil", "Kırmızı", "Mor"],
-      "answer": 2
+      "soru": "Hangi vitamin güneşten alınır?",
+      "secenekler": { "A": "A", "B": "B", "C": "C", "D": "D" },
+      "dogru": "D"
     },
     {
       "id": 41,
-      "question": "Hangi kıta en az nüfusa sahiptir?",
-      "options": ["Afrika", "Avrupa", "Antarktika", "Okyanusya"],
-      "answer": 2
+      "soru": "Dünya'nın şekli nedir?",
+      "secenekler": { "A": "Düz", "B": "Geoit", "C": "Kare", "D": "Üçgen" },
+      "dogru": "B"
     },
     {
       "id": 42,
-      "question": "Türkiye Cumhuriyeti hangi yıl kurulmuştur?",
-      "options": ["1920", "1923", "1919", "1930"],
-      "answer": 1
+      "soru": "İlk yazıyı kim bulmuştur?",
+      "secenekler": { "A": "Sümerler", "B": "Romalılar", "C": "Mısırlılar", "D": "Yunanlar" },
+      "dogru": "A"
     },
     {
       "id": 43,
-      "question": "Hangi gezegen halkalarıyla ünlüdür?",
-      "options": ["Mars", "Jüpiter", "Satürn", "Venüs"],
-      "answer": 2
+      "soru": "En çok kullanılan programlama dili hangisidir?",
+      "secenekler": { "A": "Python", "B": "Assembly", "C": "COBOL", "D": "Pascal" },
+      "dogru": "A"
     },
     {
       "id": 44,
-      "question": "Hangi gezegen Güneş’e en yakındır?",
-      "options": ["Merkür", "Venüs", "Dünya", "Mars"],
-      "answer": 0
+      "soru": "İnternet hangi yılda yaygınlaşmaya başladı?",
+      "secenekler": { "A": "1960", "B": "1980", "C": "1990", "D": "2010" },
+      "dogru": "C"
     },
     {
       "id": 45,
-      "question": "Türkiye’nin en büyük adası hangisidir?",
-      "options": ["Bozcaada", "Gökçeada", "Burgazada", "Heybeliada"],
-      "answer": 1
+      "soru": "En büyük memeli hangisidir?",
+      "secenekler": { "A": "Fil", "B": "Mavi Balina", "C": "Zürafa", "D": "Köpek" },
+      "dogru": "B"
     },
     {
       "id": 46,
-      "question": "Hangi elementin sembolü 'Na'dır?",
-      "options": ["Sodyum", "Nikel", "Nitrojen", "Neon"],
-      "answer": 0
+      "soru": "İnsan vücudunda kaç kemik vardır?",
+      "secenekler": { "A": "106", "B": "206", "C": "306", "D": "406" },
+      "dogru": "B"
     },
     {
       "id": 47,
-      "question": "Hangi ülke uzun yıllar İngiltere’nin kolonisi olmuştur?",
-      "options": ["Hindistan", "Brezilya", "Meksika", "Rusya"],
-      "answer": 0
+      "soru": "En yaygın konuşulan dil hangisidir?",
+      "secenekler": { "A": "Türkçe", "B": "İngilizce", "C": "Çince", "D": "Arapça" },
+      "dogru": "C"
     },
     {
       "id": 48,
-      "question": "Hangi şehir 'Rönesans'ın doğduğu yer olarak bilinir?",
-      "options": ["Floransa", "Paris", "Londra", "Berlin"],
-      "answer": 0
+      "soru": "Elektrik akımı birimi nedir?",
+      "secenekler": { "A": "Volt", "B": "Amper", "C": "Watt", "D": "Ohm" },
+      "dogru": "B"
     },
     {
       "id": 49,
-      "question": "Dünyanın en uzun nehri hangisidir?",
-      "options": ["Amazon", "Nil", "Yangtze", "Mississippi"],
-      "answer": 1
-    },
-    {
-      "id": 50,
-      "question": "Hangi Türk şair 'Kurtuluş Savaşı' şiirleri ile bilinir?",
-      "options": ["Nazım Hikmet", "Orhan Veli", "Cahit Sıtkı Tarancı", "Yahya Kemal Beyatlı"],
-      "answer": 0
+      "soru": "Türkiye hangi kıtada yer alır?",
+      "secenekler": { "A": "Avrupa", "B": "Asya", "C": "Her ikisi", "D": "Afrika" },
+      "dogru": "C"
     }
   ]
+}
